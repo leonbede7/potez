@@ -1,0 +1,79 @@
+[Event "01 · King’s Indian: the closed centre"]
+[Opening "01 · King’s Indian: the closed centre"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L365"]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. Ne1 Nd7 10. Be3 f5 11. f3 f4 12. Bf2 g5 {Plan: A closed centre allows flank play, but White’s c5 needs a concrete response. Balance the attack with queenside defence.} *
+
+[Event "02 · Sämisch: responding with ...c5"]
+[Opening "02 · Sämisch: responding with ...c5"]
+[Annotator "Potez study notes"]
+[Source "https://www.chess.com/openings/Kings-Indian-Defense"]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 c5 7. dxc5 dxc5 8. Qxd8 Rxd8 9. Bxc5 Nc6 {Plan: This is an intentional gambit approach with active pieces. Understand the compensation before memorizing it.} *
+
+[Event "03 · Fianchetto: central activity"]
+[Opening "03 · Fianchetto: central activity"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L284"]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. Nf3 d6 5. g3 O-O 6. Bg2 Nbd7 7. O-O e5 8. e4 Re8 9. h3 exd4 10. Nxd4 Nc5 11. Re1 a5 {Theory source E68: 22 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 12. Ndb5 Bd7 {Prioritize central activity and knight squares rather than copying the attack from a closed centre.} {Plan: Prioritize central activity and knight squares rather than copying the attack from a closed centre.} *
+
+[Event "04 · Four Pawns Attack: challenging the centre"]
+[Opening "04 · Four Pawns Attack: challenging the centre"]
+[Annotator "Potez study notes"]
+[Source "https://www.chess.com/openings/Kings-Indian-Defense"]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f4 O-O 6. Nf3 c5 7. Be2 cxd4 8. Nxd4 Nc6 9. Be3 {Plan: Challenge the broad centre before White finishes stabilizing it.} *
+
+[Event "05 · London against a fianchetto: development and counterplay"]
+[Opening "05 · London against a fianchetto: development and counterplay"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L642"]
+[Result "*"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bf4 Bg7 4. e3 d6 5. Be2 O-O {Theory source A48: 10 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 6. h3 b6 {Combine development with a timely ...e5 or ...c5. Avoid early queen-led pawn hunting.} 7. Bh2 Bb7 8. O-O Re8 9. c3 Nbd7 10. a4 a6 11. Nbd2 e5 12. Qb3 Qe7 {Plan: Combine development with a timely ...e5 or ...c5. Avoid early queen-led pawn hunting.} *
+
+[Event "06 · Colle: preventing a comfortable e4"]
+[Opening "06 · Colle: preventing a comfortable e4"]
+[Annotator "Potez study notes"]
+[Source "https://www.chess.com/openings/Kings-Indian-Defense"]
+[Result "*"]
+
+1. d4 Nf6 2. Nf3 g6 3. e3 Bg7 4. Bd3 O-O 5. O-O d6 6. c3 Nc6 7. Nbd2 e5 8. dxe5 dxe5 {Plan: White aims for e4. Choose central counterplay before that break becomes easy.} *
+
+[Event "07 · English Opening: the closed setup"]
+[Opening "07 · English Opening: the closed setup"]
+[Annotator "Potez study notes"]
+[Source "https://www.chess.com/openings/Kings-Indian-Defense"]
+[Result "*"]
+
+1. c4 Nf6 2. Nc3 g6 3. g3 Bg7 4. Bg2 O-O 5. Nf3 d6 6. O-O e5 7. d3 Nc6 8. Rb1 a5 {Plan: White has no pawn on d4. Choose breaks according to the possible d4 or b4 advance.} *
+
+[Event "08 · Réti into the King’s Indian"]
+[Opening "08 · Réti into the King’s Indian"]
+[Annotator "Potez study notes"]
+[Source "https://www.chess.com/openings/Kings-Indian-Defense"]
+[Result "*"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. d4 O-O 6. Be2 e5 7. O-O {Plan: Recognizing the same position from a different move order reduces memorization.} *
+
+[Event "09 · Early g3 and the closed centre"]
+[Opening "09 · Early g3 and the closed centre"]
+[Annotator "Potez study notes"]
+[Source "https://www.chess.com/openings/Kings-Indian-Defense"]
+[Result "*"]
+
+1. g3 Nf6 2. Bg2 g6 3. d3 Bg7 4. Nf3 O-O 5. O-O d5 6. Nbd2 Nc6 7. e4 e5 {Plan: If White leaves the centre free, take space with ...d5 and ...e5.} *
+
+[Event "10 · Symmetrical English: the double fianchetto"]
+[Opening "10 · Symmetrical English: the double fianchetto"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L491"]
+[Result "*"]
+
+1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. Nf3 Nf6 6. O-O O-O 7. d4 {Theory source A39: 13 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} cxd4 {Watch d4 and central exchanges. A bishop on g7 does not imply the same plan as in the Dragon.} 8. Nxd4 Nxd4 9. Qxd4 d6 10. Qd3 a5 11. Bg5 a4 12. b4 axb3 {Plan: Watch d4 and central exchanges. A bishop on g7 does not imply the same plan as in the Dragon.} *

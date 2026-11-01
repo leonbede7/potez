@@ -1,0 +1,55 @@
+[Event "01 · Queen’s Gambit Accepted: 3.e4 against ...e5"]
+[Opening "01 · Queen’s Gambit Accepted: 3.e4 against ...e5"]
+[Annotator "Potez study notes"]
+[Source "https://www.chess.com/openings/Queens-Gambit"]
+[Result "*"]
+
+1. d4 d5 2. c4 dxc4 3. e4 {Build an active centre; recovering c4 can wait.} e5 4. Nf3 exd4 5. Bxc4 Nc6 6. O-O Be6 7. Bxe6 fxe6 8. Qb3 {Put pressure on e6 and b7.} Qd7 9. Qxb7 Rb8 10. Qa6 {Plan: This illustrative sharp line requires accurate calculation and fast development to justify the active queen.} *
+
+[Event "02 · Queen’s Gambit Accepted: the central system"]
+[Opening "02 · Queen’s Gambit Accepted: the central system"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L231"]
+[Result "*"]
+
+1. d4 d5 2. c4 dxc4 3. e4 Nf6 {Theory source D20: 6 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 4. e5 {Central space needs piece support. After recovering c4, control d4 and complete development.} Nd5 5. Bxc4 Nb6 6. Bd3 Nc6 7. Be3 Nb4 8. Be4 f5 9. a3 N4d5 10. Bf3 Bd7 11. Nc3 Bc6 12. Nge2 Qd7 {Plan: Central space needs piece support. After recovering c4, control d4 and complete development.} *
+
+[Event "03 · Queen’s Gambit Accepted: ...c5 attacks the centre"]
+[Opening "03 · Queen’s Gambit Accepted: ...c5 attacks the centre"]
+[Annotator "Potez study notes"]
+[Source "https://www.chess.com/openings/Queens-Gambit"]
+[Result "*"]
+
+1. d4 d5 2. c4 dxc4 3. e4 c5 4. Nf3 cxd4 5. Bxc4 Nc6 6. O-O e6 7. Qe2 Nf6 8. Rd1 {The rook occupies the open file towards the centre.} Be7 9. e5 Nd5 10. Nxd4 {Plan: Use the lead in development, but check the tactical safety of e5.} *
+
+[Event "04 · Against the Albin: a safe fianchetto"]
+[Opening "04 · Against the Albin: a safe fianchetto"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L173"]
+[Result "*"]
+
+1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 Nc6 5. g3 {Theory source D09: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nge7 6. Bg2 {Returning the gambit pawn can help development and king safety. Treat the advanced d4-pawn as both a restriction and a possible target.} Ng6 7. O-O Ngxe5 8. Nxe5 Nxe5 9. Na3 Be7 10. Nb5 O-O 11. Bf4 Bf6 12. Nxd4 Nxc4 {Plan: Returning the gambit pawn can help development and king safety. Treat the advanced d4-pawn as both a restriction and a possible target.} *
+
+[Event "05 · Against the Albin: the Nbd2 system"]
+[Opening "05 · Against the Albin: the Nbd2 system"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L169"]
+[Result "*"]
+
+1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 Nc6 5. Nbd2 {Theory source D08: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nge7 6. Nb3 {The knight setup responds to the restriction created by d4. Concrete central exchanges matter more than keeping every pawn.} Ng6 7. a3 Be7 8. Nbxd4 Ncxe5 9. Qc2 O-O 10. e3 Bf6 11. Nxe5 Bxe5 12. Nf3 Re8 {Plan: The knight setup responds to the restriction created by d4. Concrete central exchanges matter more than keeping every pawn.} *
+
+[Event "06 · Chigorin Defence: development under pressure"]
+[Opening "06 · Chigorin Defence: development under pressure"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L155"]
+[Result "*"]
+
+1. d4 d5 2. c4 Nc6 3. Nc3 e6 4. Nf3 Nf6 5. a3 {Theory source D07: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Be7 6. Bf4 {Secure the centre before opening lines. Active bishops and rooks should support central exchanges.} Ne4 7. e3 Nxc3 8. bxc3 O-O 9. Qc2 h6 10. cxd5 exd5 11. c4 Re8 12. Bd3 dxc4 {Plan: Secure the centre before opening lines. Active bishops and rooks should support central exchanges.} *
+
+[Event "07 · Queen’s Gambit Accepted: challenging the pawn chain"]
+[Opening "07 · Queen’s Gambit Accepted: challenging the pawn chain"]
+[Annotator "Potez study notes"]
+[Source "https://www.chess.com/openings/Queens-Gambit"]
+[Result "*"]
+
+1. d4 d5 2. c4 dxc4 3. e4 b5 4. a4 {Challenge the pawn chain protecting c4.} c6 5. axb5 cxb5 6. Nc3 b4 7. Qa4+ Bd7 8. Qxb4 e6 9. Qxc4 {Plan: Recover the pawn by attacking its support. An immediate e3 and Bxc4 is not compulsory.} *

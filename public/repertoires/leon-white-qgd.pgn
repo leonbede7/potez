@@ -1,0 +1,47 @@
+[Event "01 · Carlsbad: Nge2 and central preparation"]
+[Opening "01 · Carlsbad: Nge2 and central preparation"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L380"]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 c6 6. e3 Be7 7. Bd3 Nbd7 8. Nge2 O-O 9. O-O Re8 10. Qc2 Nf8 {Theory source D36: 20 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 11. Rae1 {Nge2 creates different options from an early Nf3. Coordinate f3 and e4 with exchanges and king safety.} g6 12. Nf4 Kg7 {Plan: Nge2 creates different options from an early Nf3. Coordinate f3 and e4 with exchanges and king safety.} *
+
+[Event "02 · Carlsbad: Nf3 and active rooks"]
+[Opening "02 · Carlsbad: Nf3 and active rooks"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L377"]
+[Result "*"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Nbd7 5. cxd5 exd5 6. Bg5 c6 7. e3 Be7 8. Bd3 O-O 9. Qc2 {Theory source D36: 17 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} h6 10. Bh4 {Evaluate piece activity and the centre before committing to a minority attack.} Re8 11. O-O Ne4 12. Bxe4 Bxh4 {Plan: Evaluate piece activity and the centre before committing to a minority attack.} *
+
+[Event "03 · Early ...Be7: developing the bishop to f4"]
+[Opening "03 · Early ...Be7: developing the bishop to f4"]
+[Annotator "Potez study notes"]
+[Source "https://www.chess.com/openings/Queens-Gambit"]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 5. Bf4 Nf6 6. e3 O-O 7. Bd3 c5 8. Nf3 Nc6 9. O-O cxd4 10. Nxd4 Nxd4 11. exd4 {The structure has changed. Adapt the plan to the new centre.} Be6 12. Re1 Rc8 {Plan: Develop actively and recognize when exchanges have changed the structure beyond a typical minority attack.} *
+
+[Event "04 · Tarrasch: blockade and piece activity"]
+[Opening "04 · Tarrasch: blockade and piece activity"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L351"]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 5. Nf3 Nc6 6. g3 Nf6 7. Bg2 Be7 8. O-O O-O 9. Bg5 cxd4 10. Nxd4 h6 11. Be3 Re8 12. Rc1 Be6 {Theory source D34: 24 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} {Plan: Control d5 and watch exchanges turn an isolated pawn into a connected pair. Do not overlook Black’s active pieces.} *
+
+[Event "05 · Semi-Tarrasch: central tension"]
+[Opening "05 · Semi-Tarrasch: central tension"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L417"]
+[Result "*"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c5 5. cxd5 Nxd5 6. e3 Nc6 7. Bd3 {Theory source D42: 13 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Be7 8. O-O {Develop rooks and control central squares before another break. Reassess the structure after central exchanges.} O-O 9. a3 cxd4 10. exd4 Bf6 11. Re1 Bd7 12. h3 Nce7 {Plan: Develop rooks and control central squares before another break. Reassess the structure after central exchanges.} *
+
+[Event "06 · Marshall Defence: taking the centre"]
+[Opening "06 · Marshall Defence: taking the centre"]
+[Annotator "Potez study notes"]
+[Source "https://www.chess.com/openings/Queens-Gambit"]
+[Result "*"]
+
+1. d4 d5 2. c4 Nf6 3. cxd5 Nxd5 4. e4 {Take the opportunity to build a broad centre.} Nb6 5. Nf3 g6 6. Nc3 Bg7 7. Be2 O-O 8. O-O Nc6 9. Be3 Bg4 10. d5 Bxf3 11. Bxf3 Ne5 12. Be2 {Plan: Support your space with development and king safety. Avoid defending every pawn with the queen.} *

@@ -1,0 +1,71 @@
+[Event "01 · Soltis: defence and the active c-file"]
+[Opening "01 · Soltis: defence and the active c-file"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L722"]
+[PotezKind "continuation"]
+[PotezOrigin "B79 · revised theory line"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. O-O-O Qa5 11. h4 Rfc8 12. Bb3 h5 {Theory source B79: 24 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 13. Kb1 Ne5 {...h5 belongs to a specific Soltis structure. Calculate tempos, c-file pressure and exchanges against a kingside attack.} 14. Bg5 Rc5 15. Bxf6 Bxf6 16. Nd5 Qxd2 17. Nxf6+ exf6 18. Rxd2 a5 19. a3 Ra6 20. Ne2 a4 {Plan: ...h5 belongs to a specific Soltis structure. Calculate tempos, c-file pressure and exchanges against a kingside attack.} *
+
+[Event "02 · Dragon against 9.O-O-O: the central response"]
+[Opening "02 · Dragon against 9.O-O-O: the central response"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L708"]
+[PotezKind "continuation"]
+[PotezOrigin "B76 · revised theory line"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 Nc6 8. Qd2 O-O 9. O-O-O {Theory source B76: 17 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} d5 {Without Bc4, a central break can transform the position. Do not copy a flank pawn race blindly.} 10. exd5 Nxd5 11. Nxc6 bxc6 12. Bd4 Bxd4 13. Qxd4 Qb6 14. Na4 Qc7 15. Nc5 a5 16. a4 h5 17. Bc4 Rd8 18. g4 e5 19. Qe4 hxg4 20. fxg4 Qb6 {Plan: Without Bc4, a central break can transform the position. Do not copy a flank pawn race blindly.} *
+
+[Event "03 · Topalov Dragon: timely counterplay"]
+[Opening "03 · Topalov Dragon: timely counterplay"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L720"]
+[PotezKind "continuation"]
+[PotezOrigin "B78 · revised theory line"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. O-O-O Rc8 11. Bb3 Nxd4 12. Bxd4 {Theory source B78: 23 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} b5 {After ...Nxd4 and Bxd4, seek active counterplay rather than slow development. Check queenside possibilities.} 13. Bxa7 b4 14. Ne2 Qa5 15. Bd4 Ba4 16. Kb1 Bxb3 17. cxb3 Ra8 18. Nc1 Rfc8 19. Rhe1 h5 20. Re2 h4 {Plan: After ...Nxd4 and Bxd4, seek active counterplay rather than slow development. Check queenside possibilities.} *
+
+[Event "04 · Classical Dragon: central exchanges"]
+[Opening "04 · Classical Dragon: central exchanges"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L697"]
+[PotezKind "continuation"]
+[PotezOrigin "B74 · revised theory line"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be2 Bg7 7. O-O O-O 8. Be3 Nc6 9. Nb3 Be6 10. f4 Na5 11. f5 Bc4 12. Bd3 Bxd3 13. cxd3 {Theory source B74: 25 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nxb3 {With both kings castled short, central exchanges have a different purpose. Check the order of knight exchanges before the break.} 14. axb3 d5 15. Ra4 Qd6 16. Qf3 Rad8 17. Kh1 a6 18. Bf4 Qc6 19. e5 Nh5 20. g4 Nxf4 {Plan: With both kings castled short, central exchanges have a different purpose. Check the order of knight exchanges before the break.} *
+
+[Event "05 · Decision: Soltis: defence and the active c-file"]
+[Opening "05 · Decision: Soltis: defence and the active c-file"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L722"]
+[SetUp "1"]
+[FEN "r1r3k1/pp1bppb1/2np1np1/q6p/3NP2P/1BN1BP2/PPPQ2P1/1K1R3R b - - 1 13"]
+[PotezPrompt "Which knight manoeuvre continues this recorded line?"]
+[PotezKind "decision"]
+[PotezOrigin "B79 · verified continuation of chapter 01"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+13... Ne5 {...h5 belongs to a specific Soltis structure. Calculate tempos, c-file pressure and exchanges against a kingside attack.} 14. Bg5 Rc5 15. Bxf6 Bxf6 16. Nd5 Qxd2 17. Nxf6+ {Plan: ...h5 belongs to a specific Soltis structure. Calculate tempos, c-file pressure and exchanges against a kingside attack.} *
+
+[Event "06 · Decision: Dragon against 9.O-O-O: the central response"]
+[Opening "06 · Decision: Dragon against 9.O-O-O: the central response"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L708"]
+[SetUp "1"]
+[FEN "r1bq1rk1/p3pp1p/2p3p1/3n4/3Q4/2N2P2/PPP3PP/2KR1B1R b - - 0 13"]
+[PotezPrompt "Where can the queen support activity while meeting the threats?"]
+[PotezKind "decision"]
+[PotezOrigin "B76 · verified continuation of chapter 02"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+13... Qb6 {Without Bc4, a central break can transform the position. Do not copy a flank pawn race blindly.} 14. Na4 Qc7 15. Nc5 a5 16. a4 h5 17. Bc4 {Plan: Without Bc4, a central break can transform the position. Do not copy a flank pawn race blindly.} *

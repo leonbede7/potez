@@ -1,0 +1,1544 @@
+{
+  "revision": 2,
+  "courses": [
+    {
+      "id": "leon-white-slav-part2",
+      "parentId": "leon-white-slav",
+      "lessons": [
+        {
+          "title": "01 · Classical Slav: central control",
+          "moves": "1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. e3 e6 7. Bxc4 Bb4 8. O-O O-O 9. Qe2 {Theory source D19: 17 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} h6 10. Rd1 {Development and the d-file support a central break. After ...c5, count attackers and defenders before taking a pawn.} Bh7 11. Bd3 Bxd3 12. Rxd3 c5 13. Na2 Nc6 14. dxc5 Qe7 15. Nxb4 Nxb4 16. Rb3 Nc6 17. e4 Rfd8 18. h3 Qxc5 19. Rxb7 Nd4 20. Nxd4 Qxd4",
+          "plan": "Development and the d-file support a central break. After ...c5, count attackers and defenders before taking a pawn.",
+          "kind": "continuation",
+          "origin": "D19 · revised theory line",
+          "baseIndex": 0,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L226",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "02 · Exchange Slav: development and material safety",
+          "moves": "1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. cxd5 cxd5 5. Nc3 Nc6 6. Bf4 Bf5 7. e3 e6 8. Qb3 Bb4 {Theory source D14: 16 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 9. Ne5 {Balance pressure on b7 with the defence of c3 and king safety. Check the opposing bishop’s diagonal before placing a rook on it.} Bxc3+ 10. bxc3 Nxe5 11. Bxe5 O-O 12. Be2 Rc8 13. Qxb7 Ne4 14. O-O f6 15. Bg3 Qa5 16. Qb4 Qb6 17. Qxb6 axb6 18. Rfc1 Rxc3 19. Rxc3 Nxc3 20. Bf1 Nb1",
+          "plan": "Balance pressure on b7 with the defence of c3 and king safety. Check the opposing bishop’s diagonal before placing a rook on it.",
+          "kind": "continuation",
+          "origin": "D14 · revised theory line",
+          "baseIndex": 1,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L201",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "03 · Meran: calculating central play",
+          "moves": "1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 e6 5. e3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8. Bd3 a6 9. e4 c5 10. e5 cxd4 11. Nxb5 Nxe5 12. Nxe5 axb5 {Theory source D49: 24 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 13. Bxb5+ {Central breaks and sacrifices in the Meran require calculation. Checks and material recovery take priority over general rules.} Bd7 14. Nxd7 Qa5+ 15. Bd2 Qxb5 16. Nxf8 Kxf8 17. a4 Qxb2 18. O-O h6 19. Qf3 Nd5 20. Qd3 Nc3",
+          "plan": "Central breaks and sacrifices in the Meran require calculation. Checks and material recovery take priority over general rules.",
+          "kind": "continuation",
+          "origin": "D49 · revised theory line",
+          "baseIndex": 2,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L472",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "04 · Semi-Slav: development before the central break",
+          "moves": "1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 e6 5. Nf3 Nbd7 6. Bd3 Bd6 7. Qc2 {Theory source D46: 13 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} O-O 8. O-O {When the centre opens, development and active files matter more than a preplanned flank attack.} e5 9. cxd5 cxd5 10. e4 exd4 11. Nxd5 Nxd5 12. exd5 h6 13. Nxd4 Nf6 14. Bc4 Re8 15. h3 Re4 16. Rd1 Qe7 17. Nb5 Bc5 18. Bd3 Re1+ 19. Bf1 Rxd1 20. Qxd1 Ne4",
+          "plan": "When the centre opens, development and active files matter more than a preplanned flank attack.",
+          "kind": "continuation",
+          "origin": "D46 · revised theory line",
+          "baseIndex": 4,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L446",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "05 · Decision: Classical Slav: central control",
+          "moves": "13. Na2 {Development and the d-file support a central break. After ...c5, count attackers and defenders before taking a pawn.} Nc6 14. dxc5 Qe7 15. Nxb4 Nxb4 16. Rb3 Nc6",
+          "fen": "rn1q1rk1/pp3pp1/4pn1p/2p5/Pb1P4/2NRPN2/1P2QPPP/R1B3K1 w - - 0 13",
+          "kind": "decision",
+          "prompt": "Which knight manoeuvre continues this recorded line?",
+          "origin": "D19 · verified continuation of chapter 01",
+          "plan": "Development and the d-file support a central break. After ...c5, count attackers and defenders before taking a pawn.",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L226",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "06 · Decision: Exchange Slav: development and material safety",
+          "moves": "13. Qxb7 {Balance pressure on b7 with the defence of c3 and king safety. Check the opposing bishop’s diagonal before placing a rook on it.} Ne4 14. O-O f6 15. Bg3 Qa5 16. Qb4 Qb6",
+          "fen": "2rq1rk1/pp3ppp/4pn2/3pBb2/3P4/1QP1P3/P3BPPP/R3K2R w KQ - 3 13",
+          "kind": "decision",
+          "prompt": "Where can the queen support activity while meeting the threats?",
+          "origin": "D14 · verified continuation of chapter 02",
+          "plan": "Balance pressure on b7 with the defence of c3 and king safety. Check the opposing bishop’s diagonal before placing a rook on it.",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L201",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        }
+      ],
+      "chapterSources": [
+        {
+          "title": "01 · Classical Slav: central control",
+          "eco": "D19",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L226",
+          "theoryPlies": 17,
+          "minDepth": 23,
+          "maxDepth": 29,
+          "kind": "continuation",
+          "committedPlies": 8
+        },
+        {
+          "title": "02 · Exchange Slav: development and material safety",
+          "eco": "D14",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L201",
+          "theoryPlies": 16,
+          "minDepth": 25,
+          "maxDepth": 37,
+          "kind": "continuation",
+          "committedPlies": 8
+        },
+        {
+          "title": "03 · Meran: calculating central play",
+          "eco": "D49",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L472",
+          "theoryPlies": 24,
+          "minDepth": 21,
+          "maxDepth": 29,
+          "kind": "continuation",
+          "committedPlies": 16
+        },
+        {
+          "title": "04 · Semi-Slav: development before the central break",
+          "eco": "D46",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L446",
+          "theoryPlies": 13,
+          "minDepth": 24,
+          "maxDepth": 36,
+          "kind": "continuation",
+          "committedPlies": 12
+        },
+        {
+          "title": "05 · Decision: Classical Slav: central control",
+          "kind": "decision",
+          "eco": "D19",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L226",
+          "theoryPlies": 17,
+          "minDepth": 26,
+          "maxDepth": 28
+        },
+        {
+          "title": "06 · Decision: Exchange Slav: development and material safety",
+          "kind": "decision",
+          "eco": "D14",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L201",
+          "theoryPlies": 16,
+          "minDepth": 30,
+          "maxDepth": 37
+        }
+      ],
+      "sources": [
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L226",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L201",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L472",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L446"
+      ],
+      "verification": {
+        "revision": 2,
+        "engine": "Stockfish 19",
+        "nodes": 3000000,
+        "minDepth": 21,
+        "maxDepth": 37,
+        "maxLossCp": 30,
+        "branches": 4,
+        "drills": 2
+      }
+    },
+    {
+      "id": "leon-white-qgd-part2",
+      "parentId": "leon-white-qgd",
+      "lessons": [
+        {
+          "title": "01 · Carlsbad: Nge2 and central preparation",
+          "moves": "1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 c6 6. e3 Be7 7. Bd3 Nbd7 8. Nge2 O-O 9. O-O Re8 10. Qc2 Nf8 {Theory source D36: 20 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 11. Rae1 {Nge2 creates different options from an early Nf3. Coordinate f3 and e4 with exchanges and king safety.} g6 12. Nf4 Kg7 13. Bh4 Ne6 14. Nxe6+ Bxe6 15. f3 Rc8 16. Rd1 a6 17. Rfe1 Qc7 18. Qf2 Nh5 19. Bb1 Rcd8 20. Bxe7 Rxe7",
+          "plan": "Nge2 creates different options from an early Nf3. Coordinate f3 and e4 with exchanges and king safety.",
+          "kind": "continuation",
+          "origin": "D36 · revised theory line",
+          "baseIndex": 0,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L380",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "02 · Carlsbad: Nf3 and active rooks",
+          "moves": "1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Nbd7 5. cxd5 exd5 6. Bg5 c6 7. e3 Be7 8. Bd3 O-O 9. Qc2 {Theory source D36: 17 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} h6 10. Bh4 {Evaluate piece activity and the centre before committing to a minority attack.} Re8 11. O-O Ne4 12. Bxe4 Bxh4 13. Bh7+ Kh8 14. Nxh4 Qxh4 15. Bd3 Qe7 16. Rfe1 Nf6 17. f3 Bd7 18. Qd2 Rad8 19. Bc2 Nh7 20. Rad1 Bc8",
+          "plan": "Evaluate piece activity and the centre before committing to a minority attack.",
+          "kind": "continuation",
+          "origin": "D36 · revised theory line",
+          "baseIndex": 1,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L377",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "03 · Tarrasch: blockade and piece activity",
+          "moves": "1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 5. Nf3 Nc6 6. g3 Nf6 7. Bg2 Be7 8. O-O O-O 9. Bg5 cxd4 10. Nxd4 h6 11. Be3 Re8 12. Rc1 Be6 {Theory source D34: 24 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 13. Nxe6 {Control d5 and watch exchanges turn an isolated pawn into a connected pair. Do not overlook Black’s active pieces.} fxe6 14. Qb3 Qd7 15. Rfd1 Rac8 16. Bf4 g5 17. Be3 Bd6 18. Nb5 Bb8 19. Bd2 a6 20. Bc3 Kg7",
+          "plan": "Control d5 and watch exchanges turn an isolated pawn into a connected pair. Do not overlook Black’s active pieces.",
+          "kind": "continuation",
+          "origin": "D34 · revised theory line",
+          "baseIndex": 3,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L351",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "04 · Semi-Tarrasch: central tension",
+          "moves": "1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c5 5. cxd5 Nxd5 6. e3 Nc6 7. Bd3 {Theory source D42: 13 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Be7 8. O-O {Develop rooks and control central squares before another break. Reassess the structure after central exchanges.} O-O 9. a3 cxd4 10. exd4 Bf6 11. Re1 Bd7 12. h3 Nce7 13. Ne4 Bc6 14. b4 a6 15. Ne5 h6 16. Rb1 Bxe5 17. dxe5 Ng6 18. Bb2 Ndf4 19. Bf1 Qxd1 20. Rbxd1 Bxe4",
+          "plan": "Develop rooks and control central squares before another break. Reassess the structure after central exchanges.",
+          "kind": "continuation",
+          "origin": "D42 · revised theory line",
+          "baseIndex": 4,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L417",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "05 · Decision: Carlsbad: Nge2 and central preparation",
+          "moves": "13. Bh4 {Nge2 creates different options from an early Nf3. Coordinate f3 and e4 with exchanges and king safety.} Ne6 14. Nxe6+ Bxe6 15. f3 Rc8 16. Rd1 a6",
+          "fen": "r1bqrn2/pp2bpkp/2p2np1/3p2B1/3P1N2/2NBP3/PPQ2PPP/4RRK1 w - - 2 13",
+          "kind": "decision",
+          "prompt": "How can you activate or preserve the bishop?",
+          "origin": "D36 · verified continuation of chapter 01",
+          "plan": "Nge2 creates different options from an early Nf3. Coordinate f3 and e4 with exchanges and king safety.",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L380",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "06 · Decision: Carlsbad: Nf3 and active rooks",
+          "moves": "13. Bh7+ {Evaluate piece activity and the centre before committing to a minority attack.} Kh8 14. Nxh4 Qxh4 15. Bd3 Qe7 16. Rfe1 Nf6",
+          "fen": "r1bqr1k1/pp1n1pp1/2p4p/3p4/3PB2b/2N1PN2/PPQ2PPP/R4RK1 w - - 0 13",
+          "kind": "decision",
+          "prompt": "How can you use a check to gain a tempo?",
+          "origin": "D36 · verified continuation of chapter 02",
+          "plan": "Evaluate piece activity and the centre before committing to a minority attack.",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L377",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        }
+      ],
+      "chapterSources": [
+        {
+          "title": "01 · Carlsbad: Nge2 and central preparation",
+          "eco": "D36",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L380",
+          "theoryPlies": 20,
+          "minDepth": 24,
+          "maxDepth": 30,
+          "kind": "continuation",
+          "committedPlies": 15
+        },
+        {
+          "title": "02 · Carlsbad: Nf3 and active rooks",
+          "eco": "D36",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L377",
+          "theoryPlies": 17,
+          "minDepth": 24,
+          "maxDepth": 31,
+          "kind": "continuation",
+          "committedPlies": 14
+        },
+        {
+          "title": "03 · Tarrasch: blockade and piece activity",
+          "eco": "D34",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L351",
+          "theoryPlies": 24,
+          "minDepth": 22,
+          "maxDepth": 29,
+          "kind": "continuation",
+          "committedPlies": 14
+        },
+        {
+          "title": "04 · Semi-Tarrasch: central tension",
+          "eco": "D42",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L417",
+          "theoryPlies": 13,
+          "minDepth": 22,
+          "maxDepth": 30,
+          "kind": "continuation",
+          "committedPlies": 10
+        },
+        {
+          "title": "05 · Decision: Carlsbad: Nge2 and central preparation",
+          "kind": "decision",
+          "eco": "D36",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L380",
+          "theoryPlies": 20,
+          "minDepth": 24,
+          "maxDepth": 27
+        },
+        {
+          "title": "06 · Decision: Carlsbad: Nf3 and active rooks",
+          "kind": "decision",
+          "eco": "D36",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L377",
+          "theoryPlies": 17,
+          "minDepth": 24,
+          "maxDepth": 28
+        }
+      ],
+      "sources": [
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L380",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L377",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L351",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L417"
+      ],
+      "verification": {
+        "revision": 2,
+        "engine": "Stockfish 19",
+        "nodes": 3000000,
+        "minDepth": 22,
+        "maxDepth": 31,
+        "maxLossCp": 30,
+        "branches": 4,
+        "drills": 2
+      }
+    },
+    {
+      "id": "leon-white-qg-sidelines-part2",
+      "parentId": "leon-white-qg-sidelines",
+      "lessons": [
+        {
+          "title": "01 · Queen’s Gambit Accepted: the central system",
+          "moves": "1. d4 d5 2. c4 dxc4 3. e4 Nf6 {Theory source D20: 6 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 4. e5 {Central space needs piece support. After recovering c4, control d4 and complete development.} Nd5 5. Bxc4 Nb6 6. Bd3 Nc6 7. Be3 Nb4 8. Be4 f5 9. a3 N4d5 10. Bf3 Bd7 11. Nc3 Bc6 12. Nge2 Qd7 13. Bxd5 Nxd5 14. Rc1 e6 15. Nxd5 Bxd5 16. f3 O-O-O 17. h4 Kb8 18. Kf2 g6 19. Bg5 Rc8 20. Bf6 Rg8",
+          "plan": "Central space needs piece support. After recovering c4, control d4 and complete development.",
+          "kind": "continuation",
+          "origin": "D20 · revised theory line",
+          "baseIndex": 1,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L231",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "02 · Against the Albin: a safe fianchetto",
+          "moves": "1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 Nc6 5. g3 {Theory source D09: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nge7 6. Bg2 {Returning the gambit pawn can help development and king safety. Treat the advanced d4-pawn as both a restriction and a possible target.} Ng6 7. O-O Ngxe5 8. Nxe5 Nxe5 9. Na3 Be7 10. Nb5 O-O 11. Bf4 Bf6 12. Nxd4 Nxc4 13. Nb5 c6 14. Nc7 Qxd1 15. Raxd1 Rb8 16. Na6 Ra8",
+          "plan": "Returning the gambit pawn can help development and king safety. Treat the advanced d4-pawn as both a restriction and a possible target.",
+          "kind": "continuation",
+          "origin": "D09 · revised theory line",
+          "baseIndex": 3,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L173",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "03 · Against the Albin: the Nbd2 system",
+          "moves": "1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 Nc6 5. Nbd2 {Theory source D08: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nge7 6. Nb3 {The knight setup responds to the restriction created by d4. Concrete central exchanges matter more than keeping every pawn.} Ng6 7. a3 Be7 8. Nbxd4 Ncxe5 9. Qc2 O-O 10. e3 Bf6 11. Nxe5 Bxe5 12. Nf3 Re8 13. h4 Qf6 14. Nxe5 Nxe5 15. f3 h6 16. Be2 Nc6 17. Kf2 Ne5 18. e4 Be6 19. Bd2 Rad8 20. Rad1 Rd4",
+          "plan": "The knight setup responds to the restriction created by d4. Concrete central exchanges matter more than keeping every pawn.",
+          "kind": "continuation",
+          "origin": "D08 · revised theory line",
+          "baseIndex": 4,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L169",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "04 · Chigorin Defence: development under pressure",
+          "moves": "1. d4 d5 2. c4 Nc6 3. Nc3 e6 4. Nf3 Nf6 5. a3 {Theory source D07: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Be7 6. Bf4 {Secure the centre before opening lines. Active bishops and rooks should support central exchanges.} Ne4 7. e3 Nxc3 8. bxc3 O-O 9. Qc2 h6 10. cxd5 exd5 11. c4 Re8 12. Bd3 dxc4 13. Qxc4 Bd6 14. Bg3 Qf6 15. O-O Bf5 16. Be2 Na5 17. Qa4 b6 18. Rac1 Be4 19. Rfd1 Bd5 20. Nd2 Rad8",
+          "plan": "Secure the centre before opening lines. Active bishops and rooks should support central exchanges.",
+          "kind": "continuation",
+          "origin": "D07 · revised theory line",
+          "baseIndex": 5,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L155",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "05 · Decision: Queen’s Gambit Accepted: the central system",
+          "moves": "13. Bxd5 {Central space needs piece support. After recovering c4, control d4 and complete development.} Nxd5 14. Rc1 e6 15. Nxd5 Bxd5 16. f3 O-O-O",
+          "fen": "r3kb1r/pppqp1pp/1nb5/3nPp2/3P4/P1N1BB2/1P2NPPP/R2QK2R w KQkq - 7 13",
+          "kind": "decision",
+          "prompt": "How can you activate or preserve the bishop?",
+          "origin": "D20 · verified continuation of chapter 01",
+          "plan": "Central space needs piece support. After recovering c4, control d4 and complete development.",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L231",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "06 · Decision: Against the Albin: a safe fianchetto",
+          "moves": "13. Nb5 {Returning the gambit pawn can help development and king safety. Treat the advanced d4-pawn as both a restriction and a possible target.} c6 14. Nc7 Qxd1 15. Raxd1 Rb8 16. Na6 Ra8",
+          "fen": "r1bq1rk1/ppp2ppp/5b2/8/2nN1B2/6P1/PP2PPBP/R2Q1RK1 w - - 0 13",
+          "kind": "decision",
+          "prompt": "Which knight manoeuvre continues this recorded line?",
+          "origin": "D09 · verified continuation of chapter 02",
+          "plan": "Returning the gambit pawn can help development and king safety. Treat the advanced d4-pawn as both a restriction and a possible target.",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L173",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        }
+      ],
+      "chapterSources": [
+        {
+          "title": "01 · Queen’s Gambit Accepted: the central system",
+          "eco": "D20",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L231",
+          "theoryPlies": 6,
+          "minDepth": 23,
+          "maxDepth": 33,
+          "kind": "continuation",
+          "committedPlies": 6
+        },
+        {
+          "title": "02 · Against the Albin: a safe fianchetto",
+          "eco": "D09",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L173",
+          "theoryPlies": 9,
+          "minDepth": 24,
+          "maxDepth": 29,
+          "kind": "continuation",
+          "committedPlies": 6
+        },
+        {
+          "title": "03 · Against the Albin: the Nbd2 system",
+          "eco": "D08",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L169",
+          "theoryPlies": 9,
+          "minDepth": 23,
+          "maxDepth": 29,
+          "kind": "continuation",
+          "committedPlies": 6
+        },
+        {
+          "title": "04 · Chigorin Defence: development under pressure",
+          "eco": "D07",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L155",
+          "theoryPlies": 9,
+          "minDepth": 23,
+          "maxDepth": 29,
+          "kind": "continuation",
+          "committedPlies": 6
+        },
+        {
+          "title": "05 · Decision: Queen’s Gambit Accepted: the central system",
+          "kind": "decision",
+          "eco": "D20",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L231",
+          "theoryPlies": 6,
+          "minDepth": 24,
+          "maxDepth": 29
+        },
+        {
+          "title": "06 · Decision: Against the Albin: a safe fianchetto",
+          "kind": "decision",
+          "eco": "D09",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L173",
+          "theoryPlies": 9,
+          "minDepth": 24,
+          "maxDepth": 28
+        }
+      ],
+      "sources": [
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L231",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L173",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L169",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L155"
+      ],
+      "verification": {
+        "revision": 2,
+        "engine": "Stockfish 19",
+        "nodes": 3000000,
+        "minDepth": 23,
+        "maxDepth": 33,
+        "maxLossCp": 30,
+        "branches": 4,
+        "drills": 2
+      }
+    },
+    {
+      "id": "leon-white-d4-others-part2",
+      "parentId": "leon-white-d4-others",
+      "lessons": [
+        {
+          "title": "01 · Englund: development with tactical awareness",
+          "moves": "1. d4 e5 2. dxe5 Nc6 3. Nf3 Qe7 {Theory source A40: 6 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 4. Bf4 {Develop with tempo against an early queen and check every capture. Do not castle mechanically when a tactic is available.} d6 5. exd6 Qf6 6. Qc1 Bxd6 7. Bxd6 Qxd6 8. Qd2 Qxd2+ 9. Nbxd2 Nf6 10. c3 a5 11. Nd4 a4 12. Nb5 Kd8 13. e4 Na7 14. Nd4 c5 15. Nc2 Kc7 16. f3 b5 17. c4 b4 18. Ne3 Nc6 19. Nd5+ Kb7 20. Kf2 h5",
+          "plan": "Develop with tempo against an early queen and check every capture. Do not castle mechanically when a tactic is available.",
+          "kind": "continuation",
+          "origin": "A40 · revised theory line",
+          "baseIndex": 0,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L514",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "02 · Nimzo-Indian: the classical Qc2 system",
+          "moves": "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O {Theory source E32: 8 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 5. e4 {Qc2 belongs to the classical system. Respond to ...d5 according to central tension; the bishop pair is not the only goal.} d5 6. e5 Ne4 7. Bd3 c5 8. Nf3 cxd4 9. Nxd4 Nd7 10. Bf4 Qh4 11. g3 Qh5 12. O-O g5 13. cxd5 gxf4 14. dxe6 Nxe5 15. Nxe4 fxe6 16. Rad1 Ba5 17. h4 Bb6 18. Ng5 h6 19. Be2 Qg6 20. Qxg6+ Nxg6",
+          "plan": "Qc2 belongs to the classical system. Respond to ...d5 according to central tension; the bishop pair is not the only goal.",
+          "kind": "continuation",
+          "origin": "E32 · revised theory line",
+          "baseIndex": 2,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L169",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "03 · King’s Indian: the Bayonet system",
+          "moves": "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. b4 Nh5 10. Re1 {Theory source E97: 19 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} f5 11. a4 {In the Bayonet, answer ...a5 and reassess central tension after ...f5. Support pawn advances with pieces.} a5 12. bxa5 Rxa5 13. exf5 Nxf5 14. Bg5 Nf6 15. Bd3 Ne7 16. Bd2 Ra8 17. Ng5 b6 18. h3 h6 19. Ne6 Bxe6 20. dxe6 Qc8",
+          "plan": "In the Bayonet, answer ...a5 and reassess central tension after ...f5. Support pawn advances with pieces.",
+          "kind": "continuation",
+          "origin": "E97 · revised theory line",
+          "baseIndex": 3,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L360",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "04 · Grünfeld: supporting an active centre",
+          "moves": "1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8. Ne2 O-O 9. O-O Nc6 10. Be3 Bg4 11. f3 Na5 12. Bd3 cxd4 13. cxd4 Be6 14. d5 {Theory source D89: 27 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Bxa1 15. Qxa1 {A broad centre needs active pieces and accurate calculation. Sacrifices depend on the specific verified sequence.} f6 16. Rb1 Bc8 17. Bd2 Rf7 18. Nd4 Bd7 19. Qc3 b6 20. Ba6 Bc8",
+          "plan": "A broad centre needs active pieces and accurate calculation. Sacrifices depend on the specific verified sequence.",
+          "kind": "continuation",
+          "origin": "D89 · revised theory line",
+          "baseIndex": 4,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L618",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "05 · Decision: Englund: development with tactical awareness",
+          "moves": "13. e4 {Develop with tempo against an early queen and check every capture. Do not castle mechanically when a tactic is available.} Na7 14. Nd4 c5 15. Nc2 Kc7 16. f3 b5",
+          "fen": "r1bk3r/1pp2ppp/2n2n2/1N6/p7/2P5/PP1NPPPP/R3KB1R w KQ - 2 13",
+          "kind": "decision",
+          "prompt": "Which pawn-structure change fits this position?",
+          "origin": "A40 · verified continuation of chapter 01",
+          "plan": "Develop with tempo against an early queen and check every capture. Do not castle mechanically when a tactic is available.",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L514",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "06 · Decision: Nimzo-Indian: the classical Qc2 system",
+          "moves": "13. cxd5 {Qc2 belongs to the classical system. Respond to ...d5 according to central tension; the bishop pair is not the only goal.} gxf4 14. dxe6 Nxe5 15. Nxe4 fxe6 16. Rad1 Ba5",
+          "fen": "r1b2rk1/pp1n1p1p/4p3/3pP1pq/1bPNnB2/2NB2P1/PPQ2P1P/R4RK1 w - - 0 13",
+          "kind": "decision",
+          "prompt": "Which pawn-structure change fits this position?",
+          "origin": "E32 · verified continuation of chapter 02",
+          "plan": "Qc2 belongs to the classical system. Respond to ...d5 according to central tension; the bishop pair is not the only goal.",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L169",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        }
+      ],
+      "chapterSources": [
+        {
+          "title": "01 · Englund: development with tactical awareness",
+          "eco": "A40",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L514",
+          "theoryPlies": 6,
+          "minDepth": 22,
+          "maxDepth": 28,
+          "kind": "continuation",
+          "committedPlies": 4
+        },
+        {
+          "title": "02 · Nimzo-Indian: the classical Qc2 system",
+          "eco": "E32",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L169",
+          "theoryPlies": 8,
+          "minDepth": 24,
+          "maxDepth": 36,
+          "kind": "continuation",
+          "committedPlies": 8
+        },
+        {
+          "title": "03 · King’s Indian: the Bayonet system",
+          "eco": "E97",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L360",
+          "theoryPlies": 19,
+          "minDepth": 23,
+          "maxDepth": 30,
+          "kind": "continuation",
+          "committedPlies": 16
+        },
+        {
+          "title": "04 · Grünfeld: supporting an active centre",
+          "eco": "D89",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L618",
+          "theoryPlies": 27,
+          "minDepth": 22,
+          "maxDepth": 33,
+          "kind": "continuation",
+          "committedPlies": 14
+        },
+        {
+          "title": "05 · Decision: Englund: development with tactical awareness",
+          "kind": "decision",
+          "eco": "A40",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L514",
+          "theoryPlies": 6,
+          "minDepth": 24,
+          "maxDepth": 26
+        },
+        {
+          "title": "06 · Decision: Nimzo-Indian: the classical Qc2 system",
+          "kind": "decision",
+          "eco": "E32",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L169",
+          "theoryPlies": 8,
+          "minDepth": 24,
+          "maxDepth": 29
+        }
+      ],
+      "sources": [
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L514",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L169",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L360",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L618"
+      ],
+      "verification": {
+        "revision": 2,
+        "engine": "Stockfish 19",
+        "nodes": 3000000,
+        "minDepth": 22,
+        "maxDepth": 36,
+        "maxLossCp": 30,
+        "branches": 4,
+        "drills": 2
+      }
+    },
+    {
+      "id": "leon-black-dragon-part2",
+      "parentId": "leon-black-dragon",
+      "lessons": [
+        {
+          "title": "01 · Soltis: defence and the active c-file",
+          "moves": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. O-O-O Qa5 11. h4 Rfc8 12. Bb3 h5 {Theory source B79: 24 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 13. Kb1 Ne5 {...h5 belongs to a specific Soltis structure. Calculate tempos, c-file pressure and exchanges against a kingside attack.} 14. Bg5 Rc5 15. Bxf6 Bxf6 16. Nd5 Qxd2 17. Nxf6+ exf6 18. Rxd2 a5 19. a3 Ra6 20. Ne2 a4",
+          "plan": "...h5 belongs to a specific Soltis structure. Calculate tempos, c-file pressure and exchanges against a kingside attack.",
+          "kind": "continuation",
+          "origin": "B79 · revised theory line",
+          "baseIndex": 1,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L722",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "02 · Dragon against 9.O-O-O: the central response",
+          "moves": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 Nc6 8. Qd2 O-O 9. O-O-O {Theory source B76: 17 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} d5 {Without Bc4, a central break can transform the position. Do not copy a flank pawn race blindly.} 10. exd5 Nxd5 11. Nxc6 bxc6 12. Bd4 Bxd4 13. Qxd4 Qb6 14. Na4 Qc7 15. Nc5 a5 16. a4 h5 17. Bc4 Rd8 18. g4 e5 19. Qe4 hxg4 20. fxg4 Qb6",
+          "plan": "Without Bc4, a central break can transform the position. Do not copy a flank pawn race blindly.",
+          "kind": "continuation",
+          "origin": "B76 · revised theory line",
+          "baseIndex": 2,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L708",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "03 · Topalov Dragon: timely counterplay",
+          "moves": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. O-O-O Rc8 11. Bb3 Nxd4 12. Bxd4 {Theory source B78: 23 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} b5 {After ...Nxd4 and Bxd4, seek active counterplay rather than slow development. Check queenside possibilities.} 13. Bxa7 b4 14. Ne2 Qa5 15. Bd4 Ba4 16. Kb1 Bxb3 17. cxb3 Ra8 18. Nc1 Rfc8 19. Rhe1 h5 20. Re2 h4",
+          "plan": "After ...Nxd4 and Bxd4, seek active counterplay rather than slow development. Check queenside possibilities.",
+          "kind": "continuation",
+          "origin": "B78 · revised theory line",
+          "baseIndex": 3,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L720",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "04 · Classical Dragon: central exchanges",
+          "moves": "1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be2 Bg7 7. O-O O-O 8. Be3 Nc6 9. Nb3 Be6 10. f4 Na5 11. f5 Bc4 12. Bd3 Bxd3 13. cxd3 {Theory source B74: 25 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nxb3 {With both kings castled short, central exchanges have a different purpose. Check the order of knight exchanges before the break.} 14. axb3 d5 15. Ra4 Qd6 16. Qf3 Rad8 17. Kh1 a6 18. Bf4 Qc6 19. e5 Nh5 20. g4 Nxf4",
+          "plan": "With both kings castled short, central exchanges have a different purpose. Check the order of knight exchanges before the break.",
+          "kind": "continuation",
+          "origin": "B74 · revised theory line",
+          "baseIndex": 4,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L697",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "05 · Decision: Soltis: defence and the active c-file",
+          "moves": "13... Ne5 {...h5 belongs to a specific Soltis structure. Calculate tempos, c-file pressure and exchanges against a kingside attack.} 14. Bg5 Rc5 15. Bxf6 Bxf6 16. Nd5 Qxd2 17. Nxf6+",
+          "fen": "r1r3k1/pp1bppb1/2np1np1/q6p/3NP2P/1BN1BP2/PPPQ2P1/1K1R3R b - - 1 13",
+          "kind": "decision",
+          "prompt": "Which knight manoeuvre continues this recorded line?",
+          "origin": "B79 · verified continuation of chapter 01",
+          "plan": "...h5 belongs to a specific Soltis structure. Calculate tempos, c-file pressure and exchanges against a kingside attack.",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L722",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "06 · Decision: Dragon against 9.O-O-O: the central response",
+          "moves": "13... Qb6 {Without Bc4, a central break can transform the position. Do not copy a flank pawn race blindly.} 14. Na4 Qc7 15. Nc5 a5 16. a4 h5 17. Bc4",
+          "fen": "r1bq1rk1/p3pp1p/2p3p1/3n4/3Q4/2N2P2/PPP3PP/2KR1B1R b - - 0 13",
+          "kind": "decision",
+          "prompt": "Where can the queen support activity while meeting the threats?",
+          "origin": "B76 · verified continuation of chapter 02",
+          "plan": "Without Bc4, a central break can transform the position. Do not copy a flank pawn race blindly.",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L708",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        }
+      ],
+      "chapterSources": [
+        {
+          "title": "01 · Soltis: defence and the active c-file",
+          "eco": "B79",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L722",
+          "theoryPlies": 24,
+          "minDepth": 23,
+          "maxDepth": 29,
+          "kind": "continuation",
+          "committedPlies": 12
+        },
+        {
+          "title": "02 · Dragon against 9.O-O-O: the central response",
+          "eco": "B76",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L708",
+          "theoryPlies": 17,
+          "minDepth": 22,
+          "maxDepth": 28,
+          "kind": "continuation",
+          "committedPlies": 12
+        },
+        {
+          "title": "03 · Topalov Dragon: timely counterplay",
+          "eco": "B78",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L720",
+          "theoryPlies": 23,
+          "minDepth": 22,
+          "maxDepth": 28,
+          "kind": "continuation",
+          "committedPlies": 12
+        },
+        {
+          "title": "04 · Classical Dragon: central exchanges",
+          "eco": "B74",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L697",
+          "theoryPlies": 25,
+          "minDepth": 23,
+          "maxDepth": 32,
+          "kind": "continuation",
+          "committedPlies": 12
+        },
+        {
+          "title": "05 · Decision: Soltis: defence and the active c-file",
+          "kind": "decision",
+          "eco": "B79",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L722",
+          "theoryPlies": 24,
+          "minDepth": 25,
+          "maxDepth": 29
+        },
+        {
+          "title": "06 · Decision: Dragon against 9.O-O-O: the central response",
+          "kind": "decision",
+          "eco": "B76",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L708",
+          "theoryPlies": 17,
+          "minDepth": 23,
+          "maxDepth": 25
+        }
+      ],
+      "sources": [
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L722",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L708",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L720",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L697"
+      ],
+      "verification": {
+        "revision": 2,
+        "engine": "Stockfish 19",
+        "nodes": 3000000,
+        "minDepth": 22,
+        "maxDepth": 32,
+        "maxLossCp": 30,
+        "branches": 4,
+        "drills": 2
+      }
+    },
+    {
+      "id": "leon-black-anti-sicilian-part2",
+      "parentId": "leon-black-anti-sicilian",
+      "lessons": [
+        {
+          "title": "01 · Alapin: central pressure",
+          "moves": "1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. d4 cxd4 {Theory source B22: 8 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 5. cxd4 d6 {...e6, ...Be7 and pressure on d4 can be more appropriate than an automatic fianchetto.} 6. Nf3 Nc6 7. Bc4 Nb6 8. Bb5 dxe5 9. Nxe5 Bd7 10. Nxd7 Qxd7 11. Nc3 e6 12. O-O Rd8 13. Be3 Be7 14. Qg4 O-O 15. Rad1 Rfe8 16. d5 Nxd5 17. Bxa7 Qc7 18. Nxd5 exd5 19. Be3 Bf6 20. Qf3 d4",
+          "plan": "...e6, ...Be7 and pressure on d4 can be more appropriate than an automatic fianchetto.",
+          "kind": "continuation",
+          "origin": "B22 · revised theory line",
+          "baseIndex": 0,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L452",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "02 · Moscow: development after the bishop exchange",
+          "moves": "1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. O-O Nc6 6. c3 Nf6 7. d4 {Theory source B52: 13 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nxe4 {Calculate central threats before quiet development. Capturing e4 requires concrete justification.} 8. d5 Ne5 9. c4 O-O-O 10. Nxe5 dxe5 11. Re1 Nd6 12. Qd3 Qg4 13. Na3 Nf5 14. Rxe5 e6 15. Re4 Qg6 16. Bf4 a6 17. Rae1 Nd6 18. Bxd6 Bxd6 19. Qh3 Qf5 20. Qxf5 exf5",
+          "plan": "Calculate central threats before quiet development. Capturing e4 requires concrete justification.",
+          "kind": "continuation",
+          "origin": "B52 · revised theory line",
+          "baseIndex": 2,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L638",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "03 · Grand Prix: a central response",
+          "moves": "1. e4 c5 2. Nc3 Nc6 3. f4 g6 4. Nf3 Bg7 5. Bc4 e6 {Theory source B23: 10 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 6. e5 d6 {Answer a kingside attack with timely central play. Opening the e- or d-file changes the position.} 7. Bb5 Ne7 8. d4 O-O 9. dxc5 dxe5 10. fxe5 Qxd1+ 11. Nxd1 Nxe5 12. Nxe5 Bxe5 13. c3 Rd8 14. a4 Bd7 15. O-O a6 16. Be2 Rac8 17. Bg5 Re8 18. Be3 Nd5 19. Bf2 Nf4 20. Bf3 Bc6",
+          "plan": "Answer a kingside attack with timely central play. Opening the e- or d-file changes the position.",
+          "kind": "continuation",
+          "origin": "B23 · revised theory line",
+          "baseIndex": 3,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L471",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "04 · Early Bc4: development without a forced fianchetto",
+          "moves": "1. e4 c5 2. Bc4 {Theory source B20: 3 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} e6 {Early Bc4 does not require a Dragon setup. Choose development and central responses for the actual position.} 3. Nf3 Nf6 4. Qe2 Nc6 5. e5 Nd5 6. d4 cxd4 7. O-O d6 8. exd6 Nb6 9. Bb3 Bxd6 10. c3 d3 11. Qe4 O-O 12. Rd1 Qc7 13. Ng5 f5 14. Qxd3 Bxh2+ 15. Kh1 Bf4 16. Bxe6+ Kh8 17. Nf7+ Kg8 18. Nh6+ Kh8 19. Bxf4 Qxf4 20. Nf7+ Kg8",
+          "plan": "Early Bc4 does not require a Dragon setup. Choose development and central responses for the actual position.",
+          "kind": "continuation",
+          "origin": "B20 · revised theory line",
+          "baseIndex": 5,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L377",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "05 · Decision: Alapin: central pressure",
+          "moves": "13... Be7 {...e6, ...Be7 and pressure on d4 can be more appropriate than an automatic fianchetto.} 14. Qg4 O-O 15. Rad1 Rfe8 16. d5 Nxd5 17. Bxa7",
+          "fen": "3rkb1r/pp1q1ppp/1nn1p3/1B6/3P4/2N1B3/PP3PPP/R2Q1RK1 b k - 3 13",
+          "kind": "decision",
+          "prompt": "How can you activate or preserve the bishop?",
+          "origin": "B22 · verified continuation of chapter 01",
+          "plan": "...e6, ...Be7 and pressure on d4 can be more appropriate than an automatic fianchetto.",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L452",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "06 · Decision: Moscow: development after the bishop exchange",
+          "moves": "13... Nf5 {Calculate central threats before quiet development. Capturing e4 requires concrete justification.} 14. Rxe5 e6 15. Re4 Qg6 16. Bf4 a6 17. Rae1",
+          "fen": "2kr1b1r/pp2pppp/3n4/2pPp3/2P3q1/N2Q4/PP3PPP/R1B1R1K1 b - - 5 13",
+          "kind": "decision",
+          "prompt": "Which knight manoeuvre continues this recorded line?",
+          "origin": "B52 · verified continuation of chapter 02",
+          "plan": "Calculate central threats before quiet development. Capturing e4 requires concrete justification.",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L638",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        }
+      ],
+      "chapterSources": [
+        {
+          "title": "01 · Alapin: central pressure",
+          "eco": "B22",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L452",
+          "theoryPlies": 8,
+          "minDepth": 25,
+          "maxDepth": 30,
+          "kind": "continuation",
+          "committedPlies": 8
+        },
+        {
+          "title": "02 · Moscow: development after the bishop exchange",
+          "eco": "B52",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L638",
+          "theoryPlies": 13,
+          "minDepth": 23,
+          "maxDepth": 31,
+          "kind": "continuation",
+          "committedPlies": 8
+        },
+        {
+          "title": "03 · Grand Prix: a central response",
+          "eco": "B23",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L471",
+          "theoryPlies": 10,
+          "minDepth": 23,
+          "maxDepth": 28,
+          "kind": "continuation",
+          "committedPlies": 10
+        },
+        {
+          "title": "04 · Early Bc4: development without a forced fianchetto",
+          "eco": "B20",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L377",
+          "theoryPlies": 3,
+          "minDepth": 24,
+          "maxDepth": 52,
+          "kind": "continuation",
+          "committedPlies": 3
+        },
+        {
+          "title": "05 · Decision: Alapin: central pressure",
+          "kind": "decision",
+          "eco": "B22",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L452",
+          "theoryPlies": 8,
+          "minDepth": 25,
+          "maxDepth": 28
+        },
+        {
+          "title": "06 · Decision: Moscow: development after the bishop exchange",
+          "kind": "decision",
+          "eco": "B52",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L638",
+          "theoryPlies": 13,
+          "minDepth": 23,
+          "maxDepth": 27
+        }
+      ],
+      "sources": [
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L452",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L638",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L471",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L377"
+      ],
+      "verification": {
+        "revision": 2,
+        "engine": "Stockfish 19",
+        "nodes": 3000000,
+        "minDepth": 23,
+        "maxDepth": 52,
+        "maxLossCp": 30,
+        "branches": 4,
+        "drills": 2
+      }
+    },
+    {
+      "id": "leon-black-e5-part2",
+      "parentId": "leon-black-e5",
+      "lessons": [
+        {
+          "title": "01 · Pianissimo: preparing central breaks",
+          "moves": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 d6 6. O-O O-O 7. Re1 a6 8. Bb3 Ba7 9. h3 {Theory source C54: 17 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} h6 {Coordinate pieces to prepare ...d5. Reassess every piece’s activity when the centre opens.} 10. Nbd2 Be6 11. Nf1 Re8 12. Ng3 d5 13. exd5 Bxd5 14. Bc2 Qd6 15. Nh4 Ne7 16. Be3 Bxe3 17. Rxe3 Rad8 18. Qd2 Bc6 19. Rae1 e4 20. Nhf5 Nxf5",
+          "plan": "Coordinate pieces to prepare ...d5. Reassess every piece’s activity when the centre opens.",
+          "kind": "continuation",
+          "origin": "C54 · revised theory line",
+          "baseIndex": 0,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L931",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "02 · Ruy Lopez: the Chigorin central structure",
+          "moves": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 c5 11. d4 Qc7 12. Nbd2 cxd4 13. cxd4 {Theory source C99: 25 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nc6 {Understand central tension and knight manoeuvres rather than pushing flank pawns automatically.} 14. a3 exd4 15. Nb3 Re8 16. Nbxd4 Ne5 17. Bf4 Bf8 18. Bg5 Qd8 19. a4 Bb7 20. axb5 axb5",
+          "plan": "Understand central tension and knight manoeuvres rather than pushing flank pawns automatically.",
+          "kind": "continuation",
+          "origin": "C99 · revised theory line",
+          "baseIndex": 3,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L1251",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "03 · Open Italian: concrete defence",
+          "moves": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. cxd4 Bb4+ 7. Bd2 Nxe4 8. Bxb4 Nxb4 9. Bxf7+ Kxf7 10. Qb3+ {Theory source C54: 19 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Kf8 {Calculate the response to White’s central attack. Check ...Nxe4 before routinely exchanging bishops.} 11. Qxb4+ Qe7 12. Qxe7+ Kxe7 13. O-O Kd8 14. Re1 Nf6 15. Nc3 d6 16. Ng5 Rf8 17. Nge4 Ng8 18. f3 Bf5 19. Rac1 Ne7 20. Nb5 Nd5",
+          "plan": "Calculate the response to White’s central attack. Check ...Nxe4 before routinely exchanging bishops.",
+          "kind": "continuation",
+          "origin": "C54 · revised theory line",
+          "baseIndex": 1,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L952",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "04 · Scotch: coordination and king safety",
+          "moves": "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Be3 Qf6 6. c3 Nge7 {Theory source C45: 12 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 7. Bc4 Ne5 {Queen pressure needs development and a safe king. Check tactics before the thematic ...d5 break.} 8. Be2 Qg6 9. O-O d6 10. f3 O-O 11. Nd2 d5 12. a4 dxe4 13. Nxe4 Bxd4 14. Bxd4 N7c6 15. Bxe5 Nxe5 16. a5 Bf5 17. Qd5 Bxe4 18. Qxe5 Bc6 19. Bc4 Rad8 20. a6 bxa6",
+          "plan": "Queen pressure needs development and a safe king. Check tactics before the thematic ...d5 break.",
+          "kind": "continuation",
+          "origin": "C45 · revised theory line",
+          "baseIndex": 5,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L758",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "05 · Decision: Pianissimo: preparing central breaks",
+          "moves": "13... Bxd5 {Coordinate pieces to prepare ...d5. Reassess every piece’s activity when the centre opens.} 14. Bc2 Qd6 15. Nh4 Ne7 16. Be3 Bxe3 17. Rxe3",
+          "fen": "r2qr1k1/bpp2pp1/p1n1bn1p/3Pp3/8/1BPP1NNP/PP3PP1/R1BQR1K1 b - - 0 13",
+          "kind": "decision",
+          "prompt": "How can you activate or preserve the bishop?",
+          "origin": "C54 · verified continuation of chapter 01",
+          "plan": "Coordinate pieces to prepare ...d5. Reassess every piece’s activity when the centre opens.",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L931",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "06 · Decision: Ruy Lopez: the Chigorin central structure",
+          "moves": "13... Nc6 {Understand central tension and knight manoeuvres rather than pushing flank pawns automatically.} 14. a3 exd4 15. Nb3 Re8 16. Nbxd4 Ne5 17. Bf4",
+          "fen": "r1b2rk1/2q1bppp/p2p1n2/np2p3/3PP3/5N1P/PPBN1PP1/R1BQR1K1 b - - 0 13",
+          "kind": "decision",
+          "prompt": "Which knight manoeuvre continues this recorded line?",
+          "origin": "C99 · verified continuation of chapter 02",
+          "plan": "Understand central tension and knight manoeuvres rather than pushing flank pawns automatically.",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L1251",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        }
+      ],
+      "chapterSources": [
+        {
+          "title": "01 · Pianissimo: preparing central breaks",
+          "eco": "C54",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L931",
+          "theoryPlies": 17,
+          "minDepth": 24,
+          "maxDepth": 30,
+          "kind": "continuation",
+          "committedPlies": 10
+        },
+        {
+          "title": "02 · Ruy Lopez: the Chigorin central structure",
+          "eco": "C99",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L1251",
+          "theoryPlies": 25,
+          "minDepth": 24,
+          "maxDepth": 29,
+          "kind": "continuation",
+          "committedPlies": 22
+        },
+        {
+          "title": "03 · Open Italian: concrete defence",
+          "eco": "C54",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L952",
+          "theoryPlies": 19,
+          "minDepth": 25,
+          "maxDepth": 37,
+          "kind": "continuation",
+          "committedPlies": 12
+        },
+        {
+          "title": "04 · Scotch: coordination and king safety",
+          "eco": "C45",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L758",
+          "theoryPlies": 12,
+          "minDepth": 23,
+          "maxDepth": 29,
+          "kind": "continuation",
+          "committedPlies": 12
+        },
+        {
+          "title": "05 · Decision: Pianissimo: preparing central breaks",
+          "kind": "decision",
+          "eco": "C54",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L931",
+          "theoryPlies": 17,
+          "minDepth": 24,
+          "maxDepth": 30
+        },
+        {
+          "title": "06 · Decision: Ruy Lopez: the Chigorin central structure",
+          "kind": "decision",
+          "eco": "C99",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L1251",
+          "theoryPlies": 25,
+          "minDepth": 24,
+          "maxDepth": 27
+        }
+      ],
+      "sources": [
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L931",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L1251",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L952",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L758"
+      ],
+      "verification": {
+        "revision": 2,
+        "engine": "Stockfish 19",
+        "nodes": 3000000,
+        "minDepth": 23,
+        "maxDepth": 37,
+        "maxLossCp": 30,
+        "branches": 4,
+        "drills": 2
+      }
+    },
+    {
+      "id": "leon-black-fianchetto-part2",
+      "parentId": "leon-black-fianchetto",
+      "lessons": [
+        {
+          "title": "01 · King’s Indian: the closed centre",
+          "moves": "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. Ne1 Nd7 10. Be3 f5 11. f3 f4 12. Bf2 g5 13. Rc1 Ng6 14. c5 {Theory source E98: 27 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nxc5 {A closed centre allows flank play, but White’s c5 needs a concrete response. Balance the attack with queenside defence.} 15. b4 Na6 16. Nb5 h5 17. Nxa7 Nxb4 18. Nxc8 Qxc8 19. Qb3 Na6 20. a4 b6",
+          "plan": "A closed centre allows flank play, but White’s c5 needs a concrete response. Balance the attack with queenside defence.",
+          "kind": "continuation",
+          "origin": "E98 · revised theory line",
+          "baseIndex": 0,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L365",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "02 · Fianchetto: central activity",
+          "moves": "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. Nf3 d6 5. g3 O-O 6. Bg2 Nbd7 7. O-O e5 8. e4 Re8 9. h3 exd4 10. Nxd4 Nc5 11. Re1 a5 {Theory source E68: 22 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 12. Ndb5 Bd7 {Prioritize central activity and knight squares rather than copying the attack from a closed centre.} 13. Bf4 a4 14. Rb1 Bc6 15. Qc2 h5 16. Rbd1 h4 17. g4 Nfd7 18. g5 a3 19. b4 Ne6 20. Be3 Nb6",
+          "plan": "Prioritize central activity and knight squares rather than copying the attack from a closed centre.",
+          "kind": "continuation",
+          "origin": "E68 · revised theory line",
+          "baseIndex": 2,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L284",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "03 · London against a fianchetto: development and counterplay",
+          "moves": "1. d4 Nf6 2. Nf3 g6 3. Bf4 Bg7 4. e3 d6 5. Be2 O-O {Theory source A48: 10 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 6. h3 b6 {Combine development with a timely ...e5 or ...c5. Avoid early queen-led pawn hunting.} 7. Bh2 Bb7 8. O-O Re8 9. c3 Nbd7 10. a4 a6 11. Nbd2 e5 12. Qb3 Qe7 13. Rfd1 a5 14. Nb1 h5 15. Na3 Ne4 16. Nb5 Rac8 17. Na7 Ra8",
+          "plan": "Combine development with a timely ...e5 or ...c5. Avoid early queen-led pawn hunting.",
+          "kind": "continuation",
+          "origin": "A48 · revised theory line",
+          "baseIndex": 4,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L642",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "04 · Symmetrical English: the double fianchetto",
+          "moves": "1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. Nf3 Nf6 6. O-O O-O 7. d4 {Theory source A39: 13 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} cxd4 {Watch d4 and central exchanges. A bishop on g7 does not imply the same plan as in the Dragon.} 8. Nxd4 Nxd4 9. Qxd4 d6 10. Qd3 a5 11. Bg5 a4 12. b4 axb3 13. axb3 Be6 14. h3 Rxa1 15. Rxa1 Qb6 16. Qd1 Nd7 17. Bd2 Bd4 18. Be1 Be5 19. Bd2 Rb8 20. Ra2 Qd8",
+          "plan": "Watch d4 and central exchanges. A bishop on g7 does not imply the same plan as in the Dragon.",
+          "kind": "continuation",
+          "origin": "A39 · revised theory line",
+          "baseIndex": 9,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L491",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "05 · Decision: King’s Indian: the closed centre",
+          "moves": "14... Nxc5 {A closed centre allows flank play, but White’s c5 needs a concrete response. Balance the attack with queenside defence.} 15. b4 Na6 16. Nb5 h5 17. Nxa7 Nxb4 18. Nxc8",
+          "fen": "r1bq1rk1/pppn2bp/3p2n1/2PPp1p1/4Pp2/2N2P2/PP2BBPP/2RQNRK1 b - - 0 14",
+          "kind": "decision",
+          "prompt": "Which knight manoeuvre continues this recorded line?",
+          "origin": "E98 · verified continuation of chapter 01",
+          "plan": "A closed centre allows flank play, but White’s c5 needs a concrete response. Balance the attack with queenside defence.",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L365",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "06 · Decision: Fianchetto: central activity",
+          "moves": "13... a4 {Prioritize central activity and knight squares rather than copying the attack from a closed centre.} 14. Rb1 Bc6 15. Qc2 h5 16. Rbd1 h4 17. g4",
+          "fen": "r2qr1k1/1ppb1pbp/3p1np1/pNn5/2P1PB2/2N3PP/PP3PB1/R2QR1K1 b - - 3 13",
+          "kind": "decision",
+          "prompt": "Which pawn-structure change fits this position?",
+          "origin": "E68 · verified continuation of chapter 02",
+          "plan": "Prioritize central activity and knight squares rather than copying the attack from a closed centre.",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L284",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        }
+      ],
+      "chapterSources": [
+        {
+          "title": "01 · King’s Indian: the closed centre",
+          "eco": "E98",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L365",
+          "theoryPlies": 27,
+          "minDepth": 22,
+          "maxDepth": 30,
+          "kind": "continuation",
+          "committedPlies": 18
+        },
+        {
+          "title": "02 · Fianchetto: central activity",
+          "eco": "E68",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L284",
+          "theoryPlies": 22,
+          "minDepth": 22,
+          "maxDepth": 30,
+          "kind": "continuation",
+          "committedPlies": 14
+        },
+        {
+          "title": "03 · London against a fianchetto: development and counterplay",
+          "eco": "A48",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L642",
+          "theoryPlies": 10,
+          "minDepth": 24,
+          "maxDepth": 33,
+          "kind": "continuation",
+          "committedPlies": 10
+        },
+        {
+          "title": "04 · Symmetrical English: the double fianchetto",
+          "eco": "A39",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L491",
+          "theoryPlies": 13,
+          "minDepth": 24,
+          "maxDepth": 30,
+          "kind": "continuation",
+          "committedPlies": 8
+        },
+        {
+          "title": "05 · Decision: King’s Indian: the closed centre",
+          "kind": "decision",
+          "eco": "E98",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L365",
+          "theoryPlies": 27,
+          "minDepth": 22,
+          "maxDepth": 28
+        },
+        {
+          "title": "06 · Decision: Fianchetto: central activity",
+          "kind": "decision",
+          "eco": "E68",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L284",
+          "theoryPlies": 22,
+          "minDepth": 22,
+          "maxDepth": 27
+        }
+      ],
+      "sources": [
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L365",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L284",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L642",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L491"
+      ],
+      "verification": {
+        "revision": 2,
+        "engine": "Stockfish 19",
+        "nodes": 3000000,
+        "minDepth": 22,
+        "maxDepth": 33,
+        "maxLossCp": 30,
+        "branches": 4,
+        "drills": 2
+      }
+    },
+    {
+      "id": "leon-black-d5-part2",
+      "parentId": "leon-black-d5",
+      "lessons": [
+        {
+          "title": "01 · Albin: development after the accepted gambit",
+          "moves": "1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 Nc6 5. g3 {Theory source D09: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nge7 {The Albin is a deliberately riskier gambit. Prioritize development and activity over an unsupported flank attack.} 6. Bg2 Ng6 7. O-O Ngxe5 8. Nxe5 Nxe5 9. Na3 Be7 10. Nb5 O-O 11. Bf4 Bf6 12. Nxd4 Nxc4 13. Nb5 c6 14. Nc7 Qxd1 15. Raxd1 Rb8 16. Na6 Ra8",
+          "plan": "The Albin is a deliberately riskier gambit. Prioritize development and activity over an unsupported flank attack.",
+          "kind": "continuation",
+          "origin": "D09 · revised theory line",
+          "baseIndex": 0,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L173",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "02 · Albin: central compensation against Nbd2",
+          "moves": "1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 Nc6 5. Nbd2 {Theory source D08: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nge7 {Seek central compensation and active squares. The gambit does not guarantee equality and should not depend on a trap.} 6. Nb3 Ng6 7. a3 Be7 8. Nbxd4 Ncxe5 9. Qc2 O-O 10. e3 Bf6 11. Nxe5 Bxe5 12. Nf3 Re8 13. h4 Qf6 14. Nxe5 Nxe5 15. f3 h6 16. Be2 Nc6 17. Kf2 Ne5 18. e4 Be6 19. Bd2 Rad8 20. Rad1 Rd4",
+          "plan": "Seek central compensation and active squares. The gambit does not guarantee equality and should not depend on a trap.",
+          "kind": "continuation",
+          "origin": "D08 · revised theory line",
+          "baseIndex": 1,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L169",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "03 · London against ...d5: active defence",
+          "moves": "1. d4 d5 2. Nf3 Nf6 3. Bf4 c5 4. e3 Nc6 5. Nbd2 e6 6. c3 {Theory source D02: 11 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nh5 {Fight for the centre and active bishops. Every ...f6 or ...g6 affects king safety.} 7. Bg5 f6 8. Bh4 g6 9. Bb5 cxd4 10. cxd4 Bd6 11. Rc1 O-O 12. O-O Bd7 13. Nb3 Qe7 14. Nfd2 Be8 15. Be2 Ng7 16. Bg3 Nf5 17. Bxd6 Nxd6 18. Nb1 Bf7 19. Nc3 Rfd8 20. Nc5 Rac8",
+          "plan": "Fight for the centre and active bishops. Every ...f6 or ...g6 affects king safety.",
+          "kind": "continuation",
+          "origin": "D02 · revised theory line",
+          "baseIndex": 3,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L96",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "04 · Colle: controlling the central break",
+          "moves": "1. d4 d5 2. Nf3 Nf6 3. e3 e6 4. Bd3 c5 5. b3 {Theory source D05: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Be7 {Before White plays e4, establish active pieces and prepare central exchanges. Connect rooks with open files.} 6. Bb2 O-O 7. O-O b6 8. Nbd2 Nc6 9. c4 cxd4 10. exd4 Nb4 11. Be2 Bb7 12. a3 Nc6 13. Re1 Rc8 14. Rc1 Nb8 15. Ne5 Nc6 16. h3 Nxe5 17. dxe5 Ne4 18. Nxe4 dxe4 19. Qxd8 Rfxd8 20. Red1 a5",
+          "plan": "Before White plays e4, establish active pieces and prepare central exchanges. Connect rooks with open files.",
+          "kind": "continuation",
+          "origin": "D05 · revised theory line",
+          "baseIndex": 4,
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L132",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "05 · Decision: Albin: development after the accepted gambit",
+          "moves": "13... c6 {The Albin is a deliberately riskier gambit. Prioritize development and activity over an unsupported flank attack.} 14. Nc7 Qxd1 15. Raxd1 Rb8 16. Na6 Ra8",
+          "fen": "r1bq1rk1/ppp2ppp/5b2/1N6/2n2B2/6P1/PP2PPBP/R2Q1RK1 b - - 1 13",
+          "kind": "decision",
+          "prompt": "Which pawn-structure change fits this position?",
+          "origin": "D09 · verified continuation of chapter 01",
+          "plan": "The Albin is a deliberately riskier gambit. Prioritize development and activity over an unsupported flank attack.",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L173",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        },
+        {
+          "title": "06 · Decision: Albin: central compensation against Nbd2",
+          "moves": "13... Qf6 {Seek central compensation and active squares. The gambit does not guarantee equality and should not depend on a trap.} 14. Nxe5 Nxe5 15. f3 h6 16. Be2 Nc6 17. Kf2",
+          "fen": "r1bqr1k1/ppp2ppp/6n1/4b3/2P4P/P3PN2/1PQ2PP1/R1B1KB1R b KQ - 0 13",
+          "kind": "decision",
+          "prompt": "Where can the queen support activity while meeting the threats?",
+          "origin": "D08 · verified continuation of chapter 02",
+          "plan": "Seek central compensation and active squares. The gambit does not guarantee equality and should not depend on a trap.",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L169",
+          "verification": "Stockfish 19; 3000000 nodes per position; revision 2"
+        }
+      ],
+      "chapterSources": [
+        {
+          "title": "01 · Albin: development after the accepted gambit",
+          "eco": "D09",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L173",
+          "theoryPlies": 9,
+          "minDepth": 24,
+          "maxDepth": 29,
+          "kind": "continuation",
+          "committedPlies": 6
+        },
+        {
+          "title": "02 · Albin: central compensation against Nbd2",
+          "eco": "D08",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L169",
+          "theoryPlies": 9,
+          "minDepth": 23,
+          "maxDepth": 29,
+          "kind": "continuation",
+          "committedPlies": 6
+        },
+        {
+          "title": "03 · London against ...d5: active defence",
+          "eco": "D02",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L96",
+          "theoryPlies": 11,
+          "minDepth": 24,
+          "maxDepth": 31,
+          "kind": "continuation",
+          "committedPlies": 8
+        },
+        {
+          "title": "04 · Colle: controlling the central break",
+          "eco": "D05",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L132",
+          "theoryPlies": 9,
+          "minDepth": 26,
+          "maxDepth": 32,
+          "kind": "continuation",
+          "committedPlies": 6
+        },
+        {
+          "title": "05 · Decision: Albin: development after the accepted gambit",
+          "kind": "decision",
+          "eco": "D09",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L173",
+          "theoryPlies": 9,
+          "minDepth": 24,
+          "maxDepth": 28
+        },
+        {
+          "title": "06 · Decision: Albin: central compensation against Nbd2",
+          "kind": "decision",
+          "eco": "D08",
+          "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L169",
+          "theoryPlies": 9,
+          "minDepth": 23,
+          "maxDepth": 27
+        }
+      ],
+      "sources": [
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L173",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L169",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L96",
+        "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L132"
+      ],
+      "verification": {
+        "revision": 2,
+        "engine": "Stockfish 19",
+        "nodes": 3000000,
+        "minDepth": 23,
+        "maxDepth": 32,
+        "maxLossCp": 30,
+        "branches": 4,
+        "drills": 2
+      }
+    }
+  ],
+  "part1Patches": {
+    "leon-white-slav": {
+      "0": {
+        "title": "01 · Classical Slav: central control",
+        "moves": "1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. e3 e6 7. Bxc4 Bb4 8. O-O O-O 9. Qe2 {Theory source D19: 17 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} h6 10. Rd1 {Development and the d-file support a central break. After ...c5, count attackers and defenders before taking a pawn.} Bh7 11. Bd3 Bxd3 12. Rxd3 c5",
+        "plan": "Development and the d-file support a central break. After ...c5, count attackers and defenders before taking a pawn.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L226"
+      },
+      "1": {
+        "title": "02 · Exchange Slav: development and material safety",
+        "moves": "1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. cxd5 cxd5 5. Nc3 Nc6 6. Bf4 Bf5 7. e3 e6 8. Qb3 Bb4 {Theory source D14: 16 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 9. Ne5 {Balance pressure on b7 with the defence of c3 and king safety. Check the opposing bishop’s diagonal before placing a rook on it.} Bxc3+ 10. bxc3 Nxe5 11. Bxe5 O-O 12. Be2 Rc8",
+        "plan": "Balance pressure on b7 with the defence of c3 and king safety. Check the opposing bishop’s diagonal before placing a rook on it.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L201"
+      },
+      "2": {
+        "title": "03 · Meran: calculating central play",
+        "moves": "1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 e6 5. e3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8. Bd3 a6 9. e4 c5 10. e5 cxd4 11. Nxb5 Nxe5 12. Nxe5 axb5 {Theory source D49: 24 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.}",
+        "plan": "Central breaks and sacrifices in the Meran require calculation. Checks and material recovery take priority over general rules.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L472"
+      },
+      "4": {
+        "title": "05 · Semi-Slav: development before the central break",
+        "moves": "1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 e6 5. Nf3 Nbd7 6. Bd3 Bd6 7. Qc2 {Theory source D46: 13 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} O-O 8. O-O {When the centre opens, development and active files matter more than a preplanned flank attack.} e5 9. cxd5 cxd5 10. e4 exd4 11. Nxd5 Nxd5 12. exd5 h6",
+        "plan": "When the centre opens, development and active files matter more than a preplanned flank attack.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L446"
+      }
+    },
+    "leon-white-qgd": {
+      "0": {
+        "title": "01 · Carlsbad: Nge2 and central preparation",
+        "moves": "1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 c6 6. e3 Be7 7. Bd3 Nbd7 8. Nge2 O-O 9. O-O Re8 10. Qc2 Nf8 {Theory source D36: 20 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 11. Rae1 {Nge2 creates different options from an early Nf3. Coordinate f3 and e4 with exchanges and king safety.} g6 12. Nf4 Kg7",
+        "plan": "Nge2 creates different options from an early Nf3. Coordinate f3 and e4 with exchanges and king safety.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L380"
+      },
+      "1": {
+        "title": "02 · Carlsbad: Nf3 and active rooks",
+        "moves": "1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Nbd7 5. cxd5 exd5 6. Bg5 c6 7. e3 Be7 8. Bd3 O-O 9. Qc2 {Theory source D36: 17 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} h6 10. Bh4 {Evaluate piece activity and the centre before committing to a minority attack.} Re8 11. O-O Ne4 12. Bxe4 Bxh4",
+        "plan": "Evaluate piece activity and the centre before committing to a minority attack.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L377"
+      },
+      "3": {
+        "title": "04 · Tarrasch: blockade and piece activity",
+        "moves": "1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 5. Nf3 Nc6 6. g3 Nf6 7. Bg2 Be7 8. O-O O-O 9. Bg5 cxd4 10. Nxd4 h6 11. Be3 Re8 12. Rc1 Be6 {Theory source D34: 24 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.}",
+        "plan": "Control d5 and watch exchanges turn an isolated pawn into a connected pair. Do not overlook Black’s active pieces.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L351"
+      },
+      "4": {
+        "title": "05 · Semi-Tarrasch: central tension",
+        "moves": "1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c5 5. cxd5 Nxd5 6. e3 Nc6 7. Bd3 {Theory source D42: 13 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Be7 8. O-O {Develop rooks and control central squares before another break. Reassess the structure after central exchanges.} O-O 9. a3 cxd4 10. exd4 Bf6 11. Re1 Bd7 12. h3 Nce7",
+        "plan": "Develop rooks and control central squares before another break. Reassess the structure after central exchanges.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L417"
+      }
+    },
+    "leon-white-qg-sidelines": {
+      "1": {
+        "title": "02 · Queen’s Gambit Accepted: the central system",
+        "moves": "1. d4 d5 2. c4 dxc4 3. e4 Nf6 {Theory source D20: 6 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 4. e5 {Central space needs piece support. After recovering c4, control d4 and complete development.} Nd5 5. Bxc4 Nb6 6. Bd3 Nc6 7. Be3 Nb4 8. Be4 f5 9. a3 N4d5 10. Bf3 Bd7 11. Nc3 Bc6 12. Nge2 Qd7",
+        "plan": "Central space needs piece support. After recovering c4, control d4 and complete development.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L231"
+      },
+      "3": {
+        "title": "04 · Against the Albin: a safe fianchetto",
+        "moves": "1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 Nc6 5. g3 {Theory source D09: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nge7 6. Bg2 {Returning the gambit pawn can help development and king safety. Treat the advanced d4-pawn as both a restriction and a possible target.} Ng6 7. O-O Ngxe5 8. Nxe5 Nxe5 9. Na3 Be7 10. Nb5 O-O 11. Bf4 Bf6 12. Nxd4 Nxc4",
+        "plan": "Returning the gambit pawn can help development and king safety. Treat the advanced d4-pawn as both a restriction and a possible target.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L173"
+      },
+      "4": {
+        "title": "05 · Against the Albin: the Nbd2 system",
+        "moves": "1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 Nc6 5. Nbd2 {Theory source D08: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nge7 6. Nb3 {The knight setup responds to the restriction created by d4. Concrete central exchanges matter more than keeping every pawn.} Ng6 7. a3 Be7 8. Nbxd4 Ncxe5 9. Qc2 O-O 10. e3 Bf6 11. Nxe5 Bxe5 12. Nf3 Re8",
+        "plan": "The knight setup responds to the restriction created by d4. Concrete central exchanges matter more than keeping every pawn.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L169"
+      },
+      "5": {
+        "title": "06 · Chigorin Defence: development under pressure",
+        "moves": "1. d4 d5 2. c4 Nc6 3. Nc3 e6 4. Nf3 Nf6 5. a3 {Theory source D07: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Be7 6. Bf4 {Secure the centre before opening lines. Active bishops and rooks should support central exchanges.} Ne4 7. e3 Nxc3 8. bxc3 O-O 9. Qc2 h6 10. cxd5 exd5 11. c4 Re8 12. Bd3 dxc4",
+        "plan": "Secure the centre before opening lines. Active bishops and rooks should support central exchanges.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L155"
+      }
+    },
+    "leon-white-d4-others": {
+      "0": {
+        "title": "01 · Englund: development with tactical awareness",
+        "moves": "1. d4 e5 2. dxe5 Nc6 3. Nf3 Qe7 {Theory source A40: 6 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 4. Bf4 {Develop with tempo against an early queen and check every capture. Do not castle mechanically when a tactic is available.} d6 5. exd6 Qf6 6. Qc1 Bxd6 7. Bxd6 Qxd6 8. Qd2 Qxd2+ 9. Nbxd2 Nf6 10. c3 a5 11. Nd4 a4 12. Nb5 Kd8",
+        "plan": "Develop with tempo against an early queen and check every capture. Do not castle mechanically when a tactic is available.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L514"
+      },
+      "2": {
+        "title": "03 · Nimzo-Indian: the classical Qc2 system",
+        "moves": "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O {Theory source E32: 8 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 5. e4 {Qc2 belongs to the classical system. Respond to ...d5 according to central tension; the bishop pair is not the only goal.} d5 6. e5 Ne4 7. Bd3 c5 8. Nf3 cxd4 9. Nxd4 Nd7 10. Bf4 Qh4 11. g3 Qh5 12. O-O g5",
+        "plan": "Qc2 belongs to the classical system. Respond to ...d5 according to central tension; the bishop pair is not the only goal.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L169"
+      },
+      "3": {
+        "title": "04 · King’s Indian: the Bayonet system",
+        "moves": "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. b4 Nh5 10. Re1 {Theory source E97: 19 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} f5 11. a4 {In the Bayonet, answer ...a5 and reassess central tension after ...f5. Support pawn advances with pieces.} a5 12. bxa5 Rxa5",
+        "plan": "In the Bayonet, answer ...a5 and reassess central tension after ...f5. Support pawn advances with pieces.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L360"
+      },
+      "4": {
+        "title": "05 · Grünfeld: supporting an active centre",
+        "moves": "1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8. Ne2 O-O 9. O-O Nc6 10. Be3 Bg4 11. f3 Na5 12. Bd3 cxd4",
+        "plan": "A broad centre needs active pieces and accurate calculation. Sacrifices depend on the specific verified sequence.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L618"
+      }
+    },
+    "leon-black-dragon": {
+      "1": {
+        "title": "02 · Soltis: defence and the active c-file",
+        "moves": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. O-O-O Qa5 11. h4 Rfc8 12. Bb3 h5 {Theory source B79: 24 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.}",
+        "plan": "...h5 belongs to a specific Soltis structure. Calculate tempos, c-file pressure and exchanges against a kingside attack.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L722"
+      },
+      "2": {
+        "title": "03 · Dragon against 9.O-O-O: the central response",
+        "moves": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 Nc6 8. Qd2 O-O 9. O-O-O {Theory source B76: 17 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} d5 {Without Bc4, a central break can transform the position. Do not copy a flank pawn race blindly.} 10. exd5 Nxd5 11. Nxc6 bxc6 12. Bd4 Bxd4",
+        "plan": "Without Bc4, a central break can transform the position. Do not copy a flank pawn race blindly.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L708"
+      },
+      "3": {
+        "title": "04 · Topalov Dragon: timely counterplay",
+        "moves": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. O-O-O Rc8 11. Bb3 Nxd4 12. Bxd4 {Theory source B78: 23 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} b5 {After ...Nxd4 and Bxd4, seek active counterplay rather than slow development. Check queenside possibilities.}",
+        "plan": "After ...Nxd4 and Bxd4, seek active counterplay rather than slow development. Check queenside possibilities.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L720"
+      },
+      "4": {
+        "title": "05 · Classical Dragon: central exchanges",
+        "moves": "1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be2 Bg7 7. O-O O-O 8. Be3 Nc6 9. Nb3 Be6 10. f4 Na5 11. f5 Bc4 12. Bd3 Bxd3",
+        "plan": "With both kings castled short, central exchanges have a different purpose. Check the order of knight exchanges before the break.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L697"
+      }
+    },
+    "leon-black-anti-sicilian": {
+      "0": {
+        "title": "01 · Alapin: central pressure",
+        "moves": "1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. d4 cxd4 {Theory source B22: 8 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 5. cxd4 d6 {...e6, ...Be7 and pressure on d4 can be more appropriate than an automatic fianchetto.} 6. Nf3 Nc6 7. Bc4 Nb6 8. Bb5 dxe5 9. Nxe5 Bd7 10. Nxd7 Qxd7 11. Nc3 e6 12. O-O Rd8",
+        "plan": "...e6, ...Be7 and pressure on d4 can be more appropriate than an automatic fianchetto.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L452"
+      },
+      "2": {
+        "title": "03 · Moscow: development after the bishop exchange",
+        "moves": "1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. O-O Nc6 6. c3 Nf6 7. d4 {Theory source B52: 13 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nxe4 {Calculate central threats before quiet development. Capturing e4 requires concrete justification.} 8. d5 Ne5 9. c4 O-O-O 10. Nxe5 dxe5 11. Re1 Nd6 12. Qd3 Qg4",
+        "plan": "Calculate central threats before quiet development. Capturing e4 requires concrete justification.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L638"
+      },
+      "3": {
+        "title": "04 · Grand Prix: a central response",
+        "moves": "1. e4 c5 2. Nc3 Nc6 3. f4 g6 4. Nf3 Bg7 5. Bc4 e6 {Theory source B23: 10 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 6. e5 d6 {Answer a kingside attack with timely central play. Opening the e- or d-file changes the position.} 7. Bb5 Ne7 8. d4 O-O 9. dxc5 dxe5 10. fxe5 Qxd1+ 11. Nxd1 Nxe5 12. Nxe5 Bxe5",
+        "plan": "Answer a kingside attack with timely central play. Opening the e- or d-file changes the position.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L471"
+      },
+      "5": {
+        "title": "06 · Early Bc4: development without a forced fianchetto",
+        "moves": "1. e4 c5 2. Bc4 {Theory source B20: 3 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} e6 {Early Bc4 does not require a Dragon setup. Choose development and central responses for the actual position.} 3. Nf3 Nf6 4. Qe2 Nc6 5. e5 Nd5 6. d4 cxd4 7. O-O d6 8. exd6 Nb6 9. Bb3 Bxd6 10. c3 d3 11. Qe4 O-O 12. Rd1 Qc7",
+        "plan": "Early Bc4 does not require a Dragon setup. Choose development and central responses for the actual position.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L377"
+      }
+    },
+    "leon-black-e5": {
+      "0": {
+        "title": "01 · Pianissimo: preparing central breaks",
+        "moves": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 d6 6. O-O O-O 7. Re1 a6 8. Bb3 Ba7 9. h3 {Theory source C54: 17 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} h6 {Coordinate pieces to prepare ...d5. Reassess every piece’s activity when the centre opens.} 10. Nbd2 Be6 11. Nf1 Re8 12. Ng3 d5",
+        "plan": "Coordinate pieces to prepare ...d5. Reassess every piece’s activity when the centre opens.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L931"
+      },
+      "1": {
+        "title": "02 · Open Italian: concrete defence",
+        "moves": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. cxd4 Bb4+ 7. Bd2 Nxe4 8. Bxb4 Nxb4 9. Bxf7+ Kxf7 10. Qb3+ {Theory source C54: 19 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Kf8 {Calculate the response to White’s central attack. Check ...Nxe4 before routinely exchanging bishops.} 11. Qxb4+ Qe7 12. Qxe7+ Kxe7",
+        "plan": "Calculate the response to White’s central attack. Check ...Nxe4 before routinely exchanging bishops.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L952"
+      },
+      "3": {
+        "title": "04 · Ruy Lopez: the Chigorin central structure",
+        "moves": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 c5 11. d4 Qc7 12. Nbd2 cxd4",
+        "plan": "Understand central tension and knight manoeuvres rather than pushing flank pawns automatically.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L1251"
+      },
+      "5": {
+        "title": "06 · Scotch: coordination and king safety",
+        "moves": "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Be3 Qf6 6. c3 Nge7 {Theory source C45: 12 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 7. Bc4 Ne5 {Queen pressure needs development and a safe king. Check tactics before the thematic ...d5 break.} 8. Be2 Qg6 9. O-O d6 10. f3 O-O 11. Nd2 d5 12. a4 dxe4",
+        "plan": "Queen pressure needs development and a safe king. Check tactics before the thematic ...d5 break.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L758"
+      }
+    },
+    "leon-black-fianchetto": {
+      "0": {
+        "title": "01 · King’s Indian: the closed centre",
+        "moves": "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. Ne1 Nd7 10. Be3 f5 11. f3 f4 12. Bf2 g5",
+        "plan": "A closed centre allows flank play, but White’s c5 needs a concrete response. Balance the attack with queenside defence.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L365"
+      },
+      "2": {
+        "title": "03 · Fianchetto: central activity",
+        "moves": "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. Nf3 d6 5. g3 O-O 6. Bg2 Nbd7 7. O-O e5 8. e4 Re8 9. h3 exd4 10. Nxd4 Nc5 11. Re1 a5 {Theory source E68: 22 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 12. Ndb5 Bd7 {Prioritize central activity and knight squares rather than copying the attack from a closed centre.}",
+        "plan": "Prioritize central activity and knight squares rather than copying the attack from a closed centre.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L284"
+      },
+      "4": {
+        "title": "05 · London against a fianchetto: development and counterplay",
+        "moves": "1. d4 Nf6 2. Nf3 g6 3. Bf4 Bg7 4. e3 d6 5. Be2 O-O {Theory source A48: 10 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 6. h3 b6 {Combine development with a timely ...e5 or ...c5. Avoid early queen-led pawn hunting.} 7. Bh2 Bb7 8. O-O Re8 9. c3 Nbd7 10. a4 a6 11. Nbd2 e5 12. Qb3 Qe7",
+        "plan": "Combine development with a timely ...e5 or ...c5. Avoid early queen-led pawn hunting.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L642"
+      },
+      "9": {
+        "title": "10 · Symmetrical English: the double fianchetto",
+        "moves": "1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. Nf3 Nf6 6. O-O O-O 7. d4 {Theory source A39: 13 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} cxd4 {Watch d4 and central exchanges. A bishop on g7 does not imply the same plan as in the Dragon.} 8. Nxd4 Nxd4 9. Qxd4 d6 10. Qd3 a5 11. Bg5 a4 12. b4 axb3",
+        "plan": "Watch d4 and central exchanges. A bishop on g7 does not imply the same plan as in the Dragon.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L491"
+      }
+    },
+    "leon-black-d5": {
+      "0": {
+        "title": "01 · Albin: development after the accepted gambit",
+        "moves": "1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 Nc6 5. g3 {Theory source D09: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nge7 {The Albin is a deliberately riskier gambit. Prioritize development and activity over an unsupported flank attack.} 6. Bg2 Ng6 7. O-O Ngxe5 8. Nxe5 Nxe5 9. Na3 Be7 10. Nb5 O-O 11. Bf4 Bf6 12. Nxd4 Nxc4",
+        "plan": "The Albin is a deliberately riskier gambit. Prioritize development and activity over an unsupported flank attack.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L173"
+      },
+      "1": {
+        "title": "02 · Albin: central compensation against Nbd2",
+        "moves": "1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 Nc6 5. Nbd2 {Theory source D08: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nge7 {Seek central compensation and active squares. The gambit does not guarantee equality and should not depend on a trap.} 6. Nb3 Ng6 7. a3 Be7 8. Nbxd4 Ncxe5 9. Qc2 O-O 10. e3 Bf6 11. Nxe5 Bxe5 12. Nf3 Re8",
+        "plan": "Seek central compensation and active squares. The gambit does not guarantee equality and should not depend on a trap.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L169"
+      },
+      "3": {
+        "title": "04 · London against ...d5: active defence",
+        "moves": "1. d4 d5 2. Nf3 Nf6 3. Bf4 c5 4. e3 Nc6 5. Nbd2 e6 6. c3 {Theory source D02: 11 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nh5 {Fight for the centre and active bishops. Every ...f6 or ...g6 affects king safety.} 7. Bg5 f6 8. Bh4 g6 9. Bb5 cxd4 10. cxd4 Bd6 11. Rc1 O-O 12. O-O Bd7",
+        "plan": "Fight for the centre and active bishops. Every ...f6 or ...g6 affects king safety.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L96"
+      },
+      "4": {
+        "title": "05 · Colle: controlling the central break",
+        "moves": "1. d4 d5 2. Nf3 Nf6 3. e3 e6 4. Bd3 c5 5. b3 {Theory source D05: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Be7 {Before White plays e4, establish active pieces and prepare central exchanges. Connect rooks with open files.} 6. Bb2 O-O 7. O-O b6 8. Nbd2 Nc6 9. c4 cxd4 10. exd4 Nb4 11. Be2 Bb7 12. a3 Nc6",
+        "plan": "Before White plays e4, establish active pieces and prepare central exchanges. Connect rooks with open files.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L132"
+      }
+    }
+  },
+  "summary": {
+    "engine": "Stockfish 19",
+    "nodes": 3000000,
+    "positions": 1187,
+    "minDepth": 21,
+    "maxDepth": 52
+  }
+}

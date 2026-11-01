@@ -1,0 +1,40 @@
+{
+  "name": "potez-chess-studio",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "test": "node --test tests/*.test.js",
+    "preview": "vite preview --host 127.0.0.1",
+    "export:repertoires": "node scripts/export-study-pack.mjs"
+  },
+  "dependencies": {
+    "@mliebelt/pgn-parser": "^1.4.19",
+    "chess.js": "^1.4.0",
+    "lucide": "^0.468.0"
+  },
+  "devDependencies": {
+    "fake-indexeddb": "^6.2.6",
+    "vite": "^6.4.1"
+  },
+  "description": "A local-first chess opening trainer with PGN imports, spaced repetition and repertoire mastery.",
+  "author": "Leon Bede (https://github.com/leonbede7)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leonbede7/potez.git"
+  },
+  "homepage": "https://leonbede7.github.io/potez/",
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "chess",
+    "pgn",
+    "opening-trainer",
+    "spaced-repetition",
+    "vite"
+  ]
+}

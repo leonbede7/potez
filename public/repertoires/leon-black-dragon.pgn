@@ -1,0 +1,63 @@
+[Event "01 · Yugoslav Attack: development and early castling"]
+[Opening "01 · Yugoslav Attack: development and early castling"]
+[Annotator "Potez study notes"]
+[Source "https://www.chess.com/openings/Sicilian-Defense-Open-Dragon-Variation"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O {Secure the king before slow flank pawn moves.} 8. Qd2 Nc6 9. Bc4 Bd7 10. O-O-O Rc8 {Start queenside counterplay.} 11. Bb3 Ne5 12. Kb1 Re8 {Plan: Start with development, castling and the c-file. Then choose between the Soltis setup and a concrete exchange on d4.} *
+
+[Event "02 · Soltis: defence and the active c-file"]
+[Opening "02 · Soltis: defence and the active c-file"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L722"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. O-O-O Qa5 11. h4 Rfc8 12. Bb3 h5 {Theory source B79: 24 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} {Plan: ...h5 belongs to a specific Soltis structure. Calculate tempos, c-file pressure and exchanges against a kingside attack.} *
+
+[Event "03 · Dragon against 9.O-O-O: the central response"]
+[Opening "03 · Dragon against 9.O-O-O: the central response"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L708"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 Nc6 8. Qd2 O-O 9. O-O-O {Theory source B76: 17 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} d5 {Without Bc4, a central break can transform the position. Do not copy a flank pawn race blindly.} 10. exd5 Nxd5 11. Nxc6 bxc6 12. Bd4 Bxd4 {Plan: Without Bc4, a central break can transform the position. Do not copy a flank pawn race blindly.} *
+
+[Event "04 · Topalov Dragon: timely counterplay"]
+[Opening "04 · Topalov Dragon: timely counterplay"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L720"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. O-O-O Rc8 11. Bb3 Nxd4 12. Bxd4 {Theory source B78: 23 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} b5 {After ...Nxd4 and Bxd4, seek active counterplay rather than slow development. Check queenside possibilities.} {Plan: After ...Nxd4 and Bxd4, seek active counterplay rather than slow development. Check queenside possibilities.} *
+
+[Event "05 · Classical Dragon: central exchanges"]
+[Opening "05 · Classical Dragon: central exchanges"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L697"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be2 Bg7 7. O-O O-O 8. Be3 Nc6 9. Nb3 Be6 10. f4 Na5 11. f5 Bc4 12. Bd3 Bxd3 {Plan: With both kings castled short, central exchanges have a different purpose. Check the order of knight exchanges before the break.} *
+
+[Event "06 · White’s fianchetto: patient development"]
+[Opening "06 · White’s fianchetto: patient development"]
+[Annotator "Potez study notes"]
+[Source "https://www.chess.com/openings/Sicilian-Defense-Open-Dragon-Variation"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. g3 Bg7 7. Bg2 O-O 8. O-O Nc6 9. Nde2 Rb8 10. a4 a6 11. h3 b5 {Plan: The quieter structure allows queenside play. Before ...b5, check the central d5 break.} *
+
+[Event "07 · Levenfish: responding to 6.f4"]
+[Opening "07 · Levenfish: responding to 6.f4"]
+[Annotator "Potez study notes"]
+[Source "https://www.chess.com/openings/Sicilian-Defense-Open-Dragon-Variation"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. f4 Nc6 {Develop immediately and prepare an answer to e5.} 7. Nxc6 bxc6 8. e5 Nd7 9. exd6 exd6 10. Be3 Bg7 11. Qd2 O-O {Plan: An early f4 creates concrete threats. Answer e5, then complete the fianchetto and castle.} *
+
+[Event "08 · Early Bb5+: exchanges and king safety"]
+[Opening "08 · Early Bb5+: exchanges and king safety"]
+[Annotator "Potez study notes"]
+[Source "https://www.chess.com/openings/Sicilian-Defense-Open-Dragon-Variation"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Bb5+ Bd7 7. Bxd7+ Qxd7 8. O-O Bg7 9. Re1 O-O 10. h3 Nc6 {Plan: Avoid losing development time. After the exchange, decide where the queen belongs and when ...d5 works.} *

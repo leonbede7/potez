@@ -1,0 +1,711 @@
+[
+  {
+    "id": "leon-white-slav",
+    "name": "Slav and Semi-Slav",
+    "color": "w",
+    "eco": "D10–D49",
+    "symbol": "B",
+    "tone": "sage",
+    "priority": 1,
+    "group": "White · 1.d4 d5 2.c4",
+    "description": "Distinguish ...c6, ...e6 and an early ...dxc4.",
+    "when": "After 1.d4 d5 2.c4 c6, or a triangle with ...d5, ...e6 and ...c6. The c8-bishop distinguishes the Slav from the Semi-Slav.",
+    "plans": [
+      "Development and the d-file support a central break. After ...c5, count attackers and defenders before taking a pawn.",
+      "Balance pressure on b7 with the defence of c3 and king safety. Check the opposing bishop’s diagonal before placing a rook on it.",
+      "Central breaks and sacrifices in the Meran require calculation. Checks and material recovery take priority over general rules."
+    ],
+    "warnings": [
+      "Choose a plan for the actual pawn structure. A move outside this repertoire may also be good.",
+      "The unverified foundation chapters illustrate plans; they are not all engine-certified."
+    ],
+    "personal": "Your existing 1.d4 repertoire encounters ...d5 frequently. This course separates the main Slav structures.",
+    "sources": [
+      "https://www.chess.com/openings/Queens-Gambit",
+      "https://github.com/lichess-org/chess-openings"
+    ],
+    "lessons": [
+      {
+        "title": "01 · Classical Slav: central control",
+        "moves": "1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. e3 e6 7. Bxc4 Bb4 8. O-O O-O 9. Qe2 {Theory source D19: 17 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} h6 10. Rd1 {Development and the d-file support a central break. After ...c5, count attackers and defenders before taking a pawn.} Bh7 11. Bd3 Bxd3 12. Rxd3 c5",
+        "plan": "Development and the d-file support a central break. After ...c5, count attackers and defenders before taking a pawn.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L226"
+      },
+      {
+        "title": "02 · Exchange Slav: development and material safety",
+        "moves": "1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. cxd5 cxd5 5. Nc3 Nc6 6. Bf4 Bf5 7. e3 e6 8. Qb3 Bb4 {Theory source D14: 16 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 9. Ne5 {Balance pressure on b7 with the defence of c3 and king safety. Check the opposing bishop’s diagonal before placing a rook on it.} Bxc3+ 10. bxc3 Nxe5 11. Bxe5 O-O 12. Be2 Rc8",
+        "plan": "Balance pressure on b7 with the defence of c3 and king safety. Check the opposing bishop’s diagonal before placing a rook on it.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L201"
+      },
+      {
+        "title": "03 · Meran: calculating central play",
+        "moves": "1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 e6 5. e3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8. Bd3 a6 9. e4 c5 10. e5 cxd4 11. Nxb5 Nxe5 12. Nxe5 axb5 {Theory source D49: 24 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.}",
+        "plan": "Central breaks and sacrifices in the Meran require calculation. Checks and material recovery take priority over general rules.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L472"
+      },
+      {
+        "title": "04 · Meran: the main tactical line",
+        "moves": "1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 e6 5. e3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8. Bd3 a6 9. e4 c5 10. e5 cxd4 11. Nxb5 {This is a specific theoretical sacrifice, not a general rule.} Nxe5 12. Nxe5 axb5 13. O-O Qd5 14. Qe2 Ba6 15. Bg5",
+        "plan": "Calculate the open diagonals and development. Study this line after the basic Meran structure."
+      },
+      {
+        "title": "05 · Semi-Slav: development before the central break",
+        "moves": "1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 e6 5. Nf3 Nbd7 6. Bd3 Bd6 7. Qc2 {Theory source D46: 13 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} O-O 8. O-O {When the centre opens, development and active files matter more than a preplanned flank attack.} e5 9. cxd5 cxd5 10. e4 exd4 11. Nxd5 Nxd5 12. exd5 h6",
+        "plan": "When the centre opens, development and active files matter more than a preplanned flank attack.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L446"
+      },
+      {
+        "title": "06 · Early ...Bf5: pressure and development",
+        "moves": "1. d4 d5 2. c4 c6 3. Nc3 Bf5 4. cxd5 cxd5 5. Qb3 {The bishop move weakened b7, but capturing immediately is not compulsory.} e6 6. Bf4 Nc6 7. e3 Qb6 8. Qxb6 axb6 9. Bb5 Bb4 10. Ne2 Nf6 11. O-O O-O",
+        "plan": "Pressure on b7 can produce a favourable structural exchange without a queen-led pawn hunt."
+      },
+      {
+        "title": "07 · Slav with ...a6: flexible development",
+        "moves": "1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 a6 5. e3 b5 6. b3 {Support c4 and prepare to develop the bishop.} Bg4 7. Be2 e6 8. O-O Nbd7 9. Bb2 Bd6 10. Rc1 O-O 11. h3",
+        "plan": "Against ...a6 and ...b5, finish development before deciding on cxd5 or e4."
+      }
+    ],
+    "linkedRevision": 2
+  },
+  {
+    "id": "leon-white-qgd",
+    "name": "Queen’s Gambit Declined",
+    "color": "w",
+    "eco": "D30–D69",
+    "symbol": "Q",
+    "tone": "sage",
+    "priority": 2,
+    "group": "White · 1.d4 d5 2.c4",
+    "description": "Carlsbad structures, minority attacks and Tarrasch alternatives.",
+    "when": "After 1.d4 d5 2.c4 e6, including transpositions from ...Nf6 and ...d5.",
+    "plans": [
+      "Nge2 creates different options from an early Nf3. Coordinate f3 and e4 with exchanges and king safety.",
+      "Evaluate piece activity and the centre before committing to a minority attack.",
+      "Develop actively and recognize when exchanges have changed the structure beyond a typical minority attack."
+    ],
+    "warnings": [
+      "Choose a plan for the actual pawn structure. A move outside this repertoire may also be good.",
+      "The unverified foundation chapters illustrate plans; they are not all engine-certified."
+    ],
+    "personal": "This develops your existing 1.d4 and c4 repertoire.",
+    "sources": [
+      "https://www.chess.com/openings/Queens-Gambit",
+      "https://www.chess.com/openings/Queens-Gambit-Declined-Exchange-Variation",
+      "https://github.com/lichess-org/chess-openings"
+    ],
+    "lessons": [
+      {
+        "title": "01 · Carlsbad: Nge2 and central preparation",
+        "moves": "1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 c6 6. e3 Be7 7. Bd3 Nbd7 8. Nge2 O-O 9. O-O Re8 10. Qc2 Nf8 {Theory source D36: 20 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 11. Rae1 {Nge2 creates different options from an early Nf3. Coordinate f3 and e4 with exchanges and king safety.} g6 12. Nf4 Kg7",
+        "plan": "Nge2 creates different options from an early Nf3. Coordinate f3 and e4 with exchanges and king safety.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L380"
+      },
+      {
+        "title": "02 · Carlsbad: Nf3 and active rooks",
+        "moves": "1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Nbd7 5. cxd5 exd5 6. Bg5 c6 7. e3 Be7 8. Bd3 O-O 9. Qc2 {Theory source D36: 17 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} h6 10. Bh4 {Evaluate piece activity and the centre before committing to a minority attack.} Re8 11. O-O Ne4 12. Bxe4 Bxh4",
+        "plan": "Evaluate piece activity and the centre before committing to a minority attack.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L377"
+      },
+      {
+        "title": "03 · Early ...Be7: developing the bishop to f4",
+        "moves": "1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 5. Bf4 Nf6 6. e3 O-O 7. Bd3 c5 8. Nf3 Nc6 9. O-O cxd4 10. Nxd4 Nxd4 11. exd4 {The structure has changed. Adapt the plan to the new centre.} Be6 12. Re1 Rc8",
+        "plan": "Develop actively and recognize when exchanges have changed the structure beyond a typical minority attack."
+      },
+      {
+        "title": "04 · Tarrasch: blockade and piece activity",
+        "moves": "1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 5. Nf3 Nc6 6. g3 Nf6 7. Bg2 Be7 8. O-O O-O 9. Bg5 cxd4 10. Nxd4 h6 11. Be3 Re8 12. Rc1 Be6 {Theory source D34: 24 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.}",
+        "plan": "Control d5 and watch exchanges turn an isolated pawn into a connected pair. Do not overlook Black’s active pieces.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L351"
+      },
+      {
+        "title": "05 · Semi-Tarrasch: central tension",
+        "moves": "1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c5 5. cxd5 Nxd5 6. e3 Nc6 7. Bd3 {Theory source D42: 13 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Be7 8. O-O {Develop rooks and control central squares before another break. Reassess the structure after central exchanges.} O-O 9. a3 cxd4 10. exd4 Bf6 11. Re1 Bd7 12. h3 Nce7",
+        "plan": "Develop rooks and control central squares before another break. Reassess the structure after central exchanges.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L417"
+      },
+      {
+        "title": "06 · Marshall Defence: taking the centre",
+        "moves": "1. d4 d5 2. c4 Nf6 3. cxd5 Nxd5 4. e4 {Take the opportunity to build a broad centre.} Nb6 5. Nf3 g6 6. Nc3 Bg7 7. Be2 O-O 8. O-O Nc6 9. Be3 Bg4 10. d5 Bxf3 11. Bxf3 Ne5 12. Be2",
+        "plan": "Support your space with development and king safety. Avoid defending every pawn with the queen."
+      }
+    ],
+    "linkedRevision": 2
+  },
+  {
+    "id": "leon-white-qg-sidelines",
+    "name": "Queen’s Gambit: accepted and sidelines",
+    "color": "w",
+    "eco": "D08–D29",
+    "symbol": "R",
+    "tone": "sand",
+    "priority": 3,
+    "group": "White · 1.d4 sidelines",
+    "description": "Queen’s Gambit Accepted, Albin and Chigorin responses.",
+    "when": "After 1.d4 d5 2.c4, Black may capture on c4, play ...e5 or develop ...Nc6.",
+    "plans": [
+      "This illustrative sharp line requires accurate calculation and fast development to justify the active queen.",
+      "Central space needs piece support. After recovering c4, control d4 and complete development.",
+      "Use the lead in development, but check the tactical safety of e5."
+    ],
+    "warnings": [
+      "Choose a plan for the actual pawn structure. A move outside this repertoire may also be good.",
+      "The unverified foundation chapters illustrate plans; they are not all engine-certified."
+    ],
+    "personal": "The central 3.e4 system builds on your existing choices in the accepted gambit.",
+    "sources": [
+      "https://www.chess.com/openings/Queens-Gambit",
+      "https://github.com/lichess-org/chess-openings"
+    ],
+    "lessons": [
+      {
+        "title": "01 · Queen’s Gambit Accepted: 3.e4 against ...e5",
+        "moves": "1. d4 d5 2. c4 dxc4 3. e4 {Build an active centre; recovering c4 can wait.} e5 4. Nf3 exd4 5. Bxc4 Nc6 6. O-O Be6 7. Bxe6 fxe6 8. Qb3 {Put pressure on e6 and b7.} Qd7 9. Qxb7 Rb8 10. Qa6",
+        "plan": "This illustrative sharp line requires accurate calculation and fast development to justify the active queen."
+      },
+      {
+        "title": "02 · Queen’s Gambit Accepted: the central system",
+        "moves": "1. d4 d5 2. c4 dxc4 3. e4 Nf6 {Theory source D20: 6 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 4. e5 {Central space needs piece support. After recovering c4, control d4 and complete development.} Nd5 5. Bxc4 Nb6 6. Bd3 Nc6 7. Be3 Nb4 8. Be4 f5 9. a3 N4d5 10. Bf3 Bd7 11. Nc3 Bc6 12. Nge2 Qd7",
+        "plan": "Central space needs piece support. After recovering c4, control d4 and complete development.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L231"
+      },
+      {
+        "title": "03 · Queen’s Gambit Accepted: ...c5 attacks the centre",
+        "moves": "1. d4 d5 2. c4 dxc4 3. e4 c5 4. Nf3 cxd4 5. Bxc4 Nc6 6. O-O e6 7. Qe2 Nf6 8. Rd1 {The rook occupies the open file towards the centre.} Be7 9. e5 Nd5 10. Nxd4",
+        "plan": "Use the lead in development, but check the tactical safety of e5."
+      },
+      {
+        "title": "04 · Against the Albin: a safe fianchetto",
+        "moves": "1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 Nc6 5. g3 {Theory source D09: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nge7 6. Bg2 {Returning the gambit pawn can help development and king safety. Treat the advanced d4-pawn as both a restriction and a possible target.} Ng6 7. O-O Ngxe5 8. Nxe5 Nxe5 9. Na3 Be7 10. Nb5 O-O 11. Bf4 Bf6 12. Nxd4 Nxc4",
+        "plan": "Returning the gambit pawn can help development and king safety. Treat the advanced d4-pawn as both a restriction and a possible target.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L173"
+      },
+      {
+        "title": "05 · Against the Albin: the Nbd2 system",
+        "moves": "1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 Nc6 5. Nbd2 {Theory source D08: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nge7 6. Nb3 {The knight setup responds to the restriction created by d4. Concrete central exchanges matter more than keeping every pawn.} Ng6 7. a3 Be7 8. Nbxd4 Ncxe5 9. Qc2 O-O 10. e3 Bf6 11. Nxe5 Bxe5 12. Nf3 Re8",
+        "plan": "The knight setup responds to the restriction created by d4. Concrete central exchanges matter more than keeping every pawn.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L169"
+      },
+      {
+        "title": "06 · Chigorin Defence: development under pressure",
+        "moves": "1. d4 d5 2. c4 Nc6 3. Nc3 e6 4. Nf3 Nf6 5. a3 {Theory source D07: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Be7 6. Bf4 {Secure the centre before opening lines. Active bishops and rooks should support central exchanges.} Ne4 7. e3 Nxc3 8. bxc3 O-O 9. Qc2 h6 10. cxd5 exd5 11. c4 Re8 12. Bd3 dxc4",
+        "plan": "Secure the centre before opening lines. Active bishops and rooks should support central exchanges.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L155"
+      },
+      {
+        "title": "07 · Queen’s Gambit Accepted: challenging the pawn chain",
+        "moves": "1. d4 d5 2. c4 dxc4 3. e4 b5 4. a4 {Challenge the pawn chain protecting c4.} c6 5. axb5 cxb5 6. Nc3 b4 7. Qa4+ Bd7 8. Qxb4 e6 9. Qxc4",
+        "plan": "Recover the pawn by attacking its support. An immediate e3 and Bxc4 is not compulsory."
+      }
+    ],
+    "linkedRevision": 2
+  },
+  {
+    "id": "leon-white-d4-others",
+    "name": "Other defences to 1.d4",
+    "color": "w",
+    "eco": "A40–E99",
+    "symbol": "N",
+    "tone": "lavender",
+    "priority": 4,
+    "group": "White · Indian defences and sidelines",
+    "description": "Englund, Indian defences, Benoni, Benko and the Dutch.",
+    "when": "When Black does not place a pawn on d5, choose the appropriate central structure instead of forcing a Queen’s Gambit.",
+    "plans": [
+      "Develop with tempo against an early queen and check every capture. Do not castle mechanically when a tactic is available.",
+      "Keep the space advantage, but secure the king first. This is an alternative, not proof that 2.d5 must be abandoned.",
+      "Qc2 belongs to the classical system. Respond to ...d5 according to central tension; the bishop pair is not the only goal."
+    ],
+    "warnings": [
+      "Choose a plan for the actual pawn structure. A move outside this repertoire may also be good.",
+      "The unverified foundation chapters illustrate plans; they are not all engine-certified."
+    ],
+    "personal": "Includes a safer routine against the Englund and alternatives to your existing 2.d5.",
+    "sources": [
+      "https://github.com/lichess-org/chess-openings",
+      "https://www.chess.com/openings/Kings-Indian-Defense"
+    ],
+    "lessons": [
+      {
+        "title": "01 · Englund: development with tactical awareness",
+        "moves": "1. d4 e5 2. dxe5 Nc6 3. Nf3 Qe7 {Theory source A40: 6 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 4. Bf4 {Develop with tempo against an early queen and check every capture. Do not castle mechanically when a tactic is available.} d6 5. exd6 Qf6 6. Qc1 Bxd6 7. Bxd6 Qxd6 8. Qd2 Qxd2+ 9. Nbxd2 Nf6 10. c3 a5 11. Nd4 a4 12. Nb5 Kd8",
+        "plan": "Develop with tempo against an early queen and check every capture. Do not castle mechanically when a tactic is available.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L514"
+      },
+      {
+        "title": "02 · 2.d5 against ...Bc5: avoiding an early f3",
+        "moves": "1. d4 e5 2. d5 Bc5 3. Nf3 {Develop a piece rather than automatically weakening the king with f3.} d6 4. Nc3 Nf6 5. e4 O-O 6. Be2 c6 7. O-O cxd5 8. exd5",
+        "plan": "Keep the space advantage, but secure the king first. This is an alternative, not proof that 2.d5 must be abandoned."
+      },
+      {
+        "title": "03 · Nimzo-Indian: the classical Qc2 system",
+        "moves": "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O {Theory source E32: 8 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 5. e4 {Qc2 belongs to the classical system. Respond to ...d5 according to central tension; the bishop pair is not the only goal.} d5 6. e5 Ne4 7. Bd3 c5 8. Nf3 cxd4 9. Nxd4 Nd7 10. Bf4 Qh4 11. g3 Qh5 12. O-O g5",
+        "plan": "Qc2 belongs to the classical system. Respond to ...d5 according to central tension; the bishop pair is not the only goal.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L169"
+      },
+      {
+        "title": "04 · King’s Indian: the Bayonet system",
+        "moves": "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. b4 Nh5 10. Re1 {Theory source E97: 19 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} f5 11. a4 {In the Bayonet, answer ...a5 and reassess central tension after ...f5. Support pawn advances with pieces.} a5 12. bxa5 Rxa5",
+        "plan": "In the Bayonet, answer ...a5 and reassess central tension after ...f5. Support pawn advances with pieces.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L360"
+      },
+      {
+        "title": "05 · Grünfeld: supporting an active centre",
+        "moves": "1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8. Ne2 O-O 9. O-O Nc6 10. Be3 Bg4 11. f3 Na5 12. Bd3 cxd4",
+        "plan": "A broad centre needs active pieces and accurate calculation. Sacrifices depend on the specific verified sequence.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L618"
+      },
+      {
+        "title": "06 · Benoni: space and development",
+        "moves": "1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. e4 g6 7. Nf3 Bg7 8. Be2 O-O 9. O-O Re8 10. Nd2 {The knight can support c4 and control e4.} Na6 11. f3",
+        "plan": "Learn the e5 and ...b5 breaks and the importance of e4 before starting a kingside attack."
+      },
+      {
+        "title": "07 · Benko: accepting with a fianchetto",
+        "moves": "1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. bxa6 g6 6. Nc3 Bxa6 7. g3 d6 8. Bg2 Bg7 9. Nf3 O-O 10. O-O Nbd7 11. Qc2",
+        "plan": "Defend the extra pawn against long-term pressure on the a- and b-files."
+      },
+      {
+        "title": "08 · Dutch Defence: g3 and Bg2",
+        "moves": "1. d4 f5 2. c4 Nf6 3. g3 e6 4. Bg2 Be7 5. Nf3 O-O 6. O-O d6 7. Nc3 Qe8 8. b3 {Prepare to develop the other bishop.} a5 9. Bb2",
+        "plan": "Control e5, watch the ...e5 break, and account for Black’s kingside attack."
+      },
+      {
+        "title": "09 · Budapest Gambit: capture and development",
+        "moves": "1. d4 Nf6 2. c4 e5 3. dxe5 Ng4 4. Nf3 Nc6 5. Bf4 Bb4+ 6. Nbd2 Qe7 7. a3 Ngxe5 8. Nxe5 Nxe5 9. e3 Bxd2+ 10. Qxd2",
+        "plan": "Allow the pawn to be recovered if that completes development and avoids tactical traps."
+      },
+      {
+        "title": "10 · Early ...d6 and ...e5: exchanging queens",
+        "moves": "1. d4 d6 2. c4 e5 3. dxe5 dxe5 4. Qxd8+ Kxd8 5. Nc3 Be6 6. Nf3 Nd7 7. e4 c6 8. Be2 Kc7 9. O-O",
+        "plan": "Black’s lost castling rights do not decide the game. Use development and secure central squares."
+      },
+      {
+        "title": "11 · Modern Defence: taking the centre",
+        "moves": "1. d4 g6 2. c4 Bg7 3. Nc3 d6 4. e4 Nf6 5. Nf3 O-O 6. Be2 e5 7. O-O",
+        "plan": "Recognize the transposition to the King’s Indian rather than memorizing the same position twice."
+      },
+      {
+        "title": "12 · English Defence: ...b6 and ...Bb7",
+        "moves": "1. d4 e6 2. c4 b6 3. Nc3 Bb7 4. e4 Bb4 5. Bd3 f5 6. Qe2 Nf6 7. e5 Ne4 8. Bxe4 Bxe4 9. Nf3",
+        "plan": "Maintain central coordination. An early ...f5 changes the character of the position."
+      },
+      {
+        "title": "13 · Queen’s Indian from 3.Nf3",
+        "moves": "1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. Nc3 Ne4 8. Qc2 Nxc3 9. Qxc3",
+        "plan": "In this move order, control e4 and coordinate the pieces."
+      },
+      {
+        "title": "14 · Bogo-Indian: answering the check",
+        "moves": "1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Qe7 5. g3 Nc6 6. Bg2 Bxd2+ 7. Qxd2 d6 8. Nc3 O-O 9. O-O",
+        "plan": "Deal with the check, then continue the fianchetto and preparation for e4."
+      },
+      {
+        "title": "15 · Dutch Stonewall: the e5 outpost",
+        "moves": "1. d4 f5 2. c4 Nf6 3. g3 e6 4. Bg2 d5 5. Nf3 c6 6. O-O Bd6 7. b3 O-O 8. Ba3 {Offer to exchange Black’s active bishop.} Bxa3 9. Nxa3 Qe7 10. Nc2",
+        "plan": "In the closed structure, choose good squares and useful exchanges rather than copying a plan against ...d6."
+      },
+      {
+        "title": "16 · Leningrad Dutch",
+        "moves": "1. d4 f5 2. c4 Nf6 3. g3 g6 4. Bg2 Bg7 5. Nf3 O-O 6. O-O d6 7. Nc3 Qe8 8. d5 Na6 9. Nd4",
+        "plan": "Support your space and control of e6 while watching Black’s ...e5 break."
+      }
+    ],
+    "linkedRevision": 2
+  },
+  {
+    "id": "leon-black-dragon",
+    "name": "Sicilian Dragon",
+    "color": "b",
+    "eco": "B70–B79",
+    "symbol": "B",
+    "tone": "clay",
+    "priority": 5,
+    "group": "Black · 1.e4 c5",
+    "description": "Yugoslav Attack, Soltis, classical setups and the ...d5 break.",
+    "when": "Against 1.e4: ...c5, ...d6, ...Nf6 and ...g6. This is separate from a fianchetto against 1.d4.",
+    "plans": [
+      "Start with development, castling and the c-file. Then choose between the Soltis setup and a concrete exchange on d4.",
+      "...h5 belongs to a specific Soltis structure. Calculate tempos, c-file pressure and exchanges against a kingside attack.",
+      "Without Bc4, a central break can transform the position. Do not copy a flank pawn race blindly."
+    ],
+    "warnings": [
+      "Choose a plan for the actual pawn structure. A move outside this repertoire may also be good.",
+      "The unverified foundation chapters illustrate plans; they are not all engine-certified."
+    ],
+    "personal": "Your existing Sicilian repertoire already reaches the Dragon. Prioritize development and king safety.",
+    "sources": [
+      "https://www.chess.com/openings/Sicilian-Defense-Open-Dragon-Variation",
+      "https://github.com/lichess-org/chess-openings"
+    ],
+    "lessons": [
+      {
+        "title": "01 · Yugoslav Attack: development and early castling",
+        "moves": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O {Secure the king before slow flank pawn moves.} 8. Qd2 Nc6 9. Bc4 Bd7 10. O-O-O Rc8 {Start queenside counterplay.} 11. Bb3 Ne5 12. Kb1 Re8",
+        "plan": "Start with development, castling and the c-file. Then choose between the Soltis setup and a concrete exchange on d4."
+      },
+      {
+        "title": "02 · Soltis: defence and the active c-file",
+        "moves": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. O-O-O Qa5 11. h4 Rfc8 12. Bb3 h5 {Theory source B79: 24 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.}",
+        "plan": "...h5 belongs to a specific Soltis structure. Calculate tempos, c-file pressure and exchanges against a kingside attack.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L722"
+      },
+      {
+        "title": "03 · Dragon against 9.O-O-O: the central response",
+        "moves": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 Nc6 8. Qd2 O-O 9. O-O-O {Theory source B76: 17 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} d5 {Without Bc4, a central break can transform the position. Do not copy a flank pawn race blindly.} 10. exd5 Nxd5 11. Nxc6 bxc6 12. Bd4 Bxd4",
+        "plan": "Without Bc4, a central break can transform the position. Do not copy a flank pawn race blindly.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L708"
+      },
+      {
+        "title": "04 · Topalov Dragon: timely counterplay",
+        "moves": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. O-O-O Rc8 11. Bb3 Nxd4 12. Bxd4 {Theory source B78: 23 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} b5 {After ...Nxd4 and Bxd4, seek active counterplay rather than slow development. Check queenside possibilities.}",
+        "plan": "After ...Nxd4 and Bxd4, seek active counterplay rather than slow development. Check queenside possibilities.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L720"
+      },
+      {
+        "title": "05 · Classical Dragon: central exchanges",
+        "moves": "1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be2 Bg7 7. O-O O-O 8. Be3 Nc6 9. Nb3 Be6 10. f4 Na5 11. f5 Bc4 12. Bd3 Bxd3",
+        "plan": "With both kings castled short, central exchanges have a different purpose. Check the order of knight exchanges before the break.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L697"
+      },
+      {
+        "title": "06 · White’s fianchetto: patient development",
+        "moves": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. g3 Bg7 7. Bg2 O-O 8. O-O Nc6 9. Nde2 Rb8 10. a4 a6 11. h3 b5",
+        "plan": "The quieter structure allows queenside play. Before ...b5, check the central d5 break."
+      },
+      {
+        "title": "07 · Levenfish: responding to 6.f4",
+        "moves": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. f4 Nc6 {Develop immediately and prepare an answer to e5.} 7. Nxc6 bxc6 8. e5 Nd7 9. exd6 exd6 10. Be3 Bg7 11. Qd2 O-O",
+        "plan": "An early f4 creates concrete threats. Answer e5, then complete the fianchetto and castle."
+      },
+      {
+        "title": "08 · Early Bb5+: exchanges and king safety",
+        "moves": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Bb5+ Bd7 7. Bxd7+ Qxd7 8. O-O Bg7 9. Re1 O-O 10. h3 Nc6",
+        "plan": "Avoid losing development time. After the exchange, decide where the queen belongs and when ...d5 works."
+      }
+    ],
+    "linkedRevision": 2
+  },
+  {
+    "id": "leon-black-anti-sicilian",
+    "name": "Anti-Sicilians",
+    "color": "b",
+    "eco": "B20–B52",
+    "symbol": "N",
+    "tone": "clay",
+    "priority": 6,
+    "group": "Black · alternatives to the Open Sicilian",
+    "description": "Alapin, Moscow, Grand Prix and early Bc4 systems.",
+    "when": "After 1.e4 c5 when White avoids the Open Sicilian.",
+    "plans": [
+      "...e6, ...Be7 and pressure on d4 can be more appropriate than an automatic fianchetto.",
+      "Distinguish this structure from the Open Dragon. The queen and pawns have different jobs.",
+      "Calculate central threats before quiet development. Capturing e4 requires concrete justification."
+    ],
+    "warnings": [
+      "Choose a plan for the actual pawn structure. A move outside this repertoire may also be good.",
+      "The unverified foundation chapters illustrate plans; they are not all engine-certified."
+    ],
+    "personal": "These systems cover common deviations from the Dragon move order.",
+    "sources": [
+      "https://www.chess.com/openings/Sicilian-Defense-Open-Dragon-Variation",
+      "https://github.com/lichess-org/chess-openings"
+    ],
+    "lessons": [
+      {
+        "title": "01 · Alapin: central pressure",
+        "moves": "1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. d4 cxd4 {Theory source B22: 8 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 5. cxd4 d6 {...e6, ...Be7 and pressure on d4 can be more appropriate than an automatic fianchetto.} 6. Nf3 Nc6 7. Bc4 Nb6 8. Bb5 dxe5 9. Nxe5 Bd7 10. Nxd7 Qxd7 11. Nc3 e6 12. O-O Rd8",
+        "plan": "...e6, ...Be7 and pressure on d4 can be more appropriate than an automatic fianchetto.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L452"
+      },
+      {
+        "title": "02 · Alapin with early Bc4",
+        "moves": "1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. Nf3 Nc6 5. Bc4 Nb6 6. Bb3 d5 {Seek central counterplay rather than a random pawn advance.} 7. exd6 Qxd6 8. O-O Be6 9. Bxe6 Qxe6",
+        "plan": "Distinguish this structure from the Open Dragon. The queen and pawns have different jobs."
+      },
+      {
+        "title": "03 · Moscow: development after the bishop exchange",
+        "moves": "1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. O-O Nc6 6. c3 Nf6 7. d4 {Theory source B52: 13 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nxe4 {Calculate central threats before quiet development. Capturing e4 requires concrete justification.} 8. d5 Ne5 9. c4 O-O-O 10. Nxe5 dxe5 11. Re1 Nd6 12. Qd3 Qg4",
+        "plan": "Calculate central threats before quiet development. Capturing e4 requires concrete justification.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L638"
+      },
+      {
+        "title": "04 · Grand Prix: a central response",
+        "moves": "1. e4 c5 2. Nc3 Nc6 3. f4 g6 4. Nf3 Bg7 5. Bc4 e6 {Theory source B23: 10 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 6. e5 d6 {Answer a kingside attack with timely central play. Opening the e- or d-file changes the position.} 7. Bb5 Ne7 8. d4 O-O 9. dxc5 dxe5 10. fxe5 Qxd1+ 11. Nxd1 Nxe5 12. Nxe5 Bxe5",
+        "plan": "Answer a kingside attack with timely central play. Opening the e- or d-file changes the position.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L471"
+      },
+      {
+        "title": "05 · Closed Sicilian: a flexible centre",
+        "moves": "1. e4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. d3 d6 6. Be3 e6 7. Qd2 Nge7 8. Bh6 O-O 9. Bxg7 Kxg7",
+        "plan": "After exchanging the g7-bishop, reassess the dark squares. Other pieces also contribute to defence."
+      },
+      {
+        "title": "06 · Early Bc4: development without a forced fianchetto",
+        "moves": "1. e4 c5 2. Bc4 {Theory source B20: 3 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} e6 {Early Bc4 does not require a Dragon setup. Choose development and central responses for the actual position.} 3. Nf3 Nf6 4. Qe2 Nc6 5. e5 Nd5 6. d4 cxd4 7. O-O d6 8. exd6 Nb6 9. Bb3 Bxd6 10. c3 d3 11. Qe4 O-O 12. Rd1 Qc7",
+        "plan": "Early Bc4 does not require a Dragon setup. Choose development and central responses for the actual position.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L377"
+      },
+      {
+        "title": "07 · Declining the Morra: transposing to the Alapin",
+        "moves": "1. e4 c5 2. d4 cxd4 3. c3 Nf6 {Use one consistent system instead of an additional gambit repertoire.} 4. e5 Nd5 5. Nf3 Nc6 6. cxd4 d6 7. Bc4 Nb6 8. Bb5 dxe5",
+        "plan": "Connect this transposition with the first Alapin chapter."
+      },
+      {
+        "title": "08 · Quiet d3 and a delayed d4",
+        "moves": "1. e4 c5 2. Nf3 d6 3. d3 Nf6 4. g3 g6 5. Bg2 Bg7 6. O-O O-O 7. Nbd2 Nc6 8. Re1 e5",
+        "plan": "Stay flexible when White delays d4. ...e5 creates a different structure from the Open Dragon."
+      }
+    ],
+    "linkedRevision": 2
+  },
+  {
+    "id": "leon-black-e5",
+    "name": "Open games with 1…e5",
+    "color": "b",
+    "eco": "C20–C99",
+    "symbol": "R",
+    "tone": "sand",
+    "priority": 7,
+    "group": "Black · an alternative against 1.e4",
+    "description": "Italian, Ruy Lopez, Scotch, Vienna and gambit responses.",
+    "when": "After 1.e4 e5. Choose this or the Sicilian as your main response to e4.",
+    "plans": [
+      "Coordinate pieces to prepare ...d5. Reassess every piece’s activity when the centre opens.",
+      "Calculate the response to White’s central attack. Check ...Nxe4 before routinely exchanging bishops.",
+      "Black receives activity for the pawn. Learn the concrete move order."
+    ],
+    "warnings": [
+      "Choose a plan for the actual pawn structure. A move outside this repertoire may also be good.",
+      "The ...e5 and Sicilian courses are alternative responses to the same first move."
+    ],
+    "personal": "A separate alternative to your current ...c5 repertoire.",
+    "sources": [
+      "https://github.com/lichess-org/chess-openings",
+      "https://www.chess.com/openings/Italian-Game",
+      "https://www.chess.com/openings/Ruy-Lopez-Opening"
+    ],
+    "lessons": [
+      {
+        "title": "01 · Pianissimo: preparing central breaks",
+        "moves": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 d6 6. O-O O-O 7. Re1 a6 8. Bb3 Ba7 9. h3 {Theory source C54: 17 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} h6 {Coordinate pieces to prepare ...d5. Reassess every piece’s activity when the centre opens.} 10. Nbd2 Be6 11. Nf1 Re8 12. Ng3 d5",
+        "plan": "Coordinate pieces to prepare ...d5. Reassess every piece’s activity when the centre opens.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L931"
+      },
+      {
+        "title": "02 · Open Italian: concrete defence",
+        "moves": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. cxd4 Bb4+ 7. Bd2 Nxe4 8. Bxb4 Nxb4 9. Bxf7+ Kxf7 10. Qb3+ {Theory source C54: 19 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Kf8 {Calculate the response to White’s central attack. Check ...Nxe4 before routinely exchanging bishops.} 11. Qxb4+ Qe7 12. Qxe7+ Kxe7",
+        "plan": "Calculate the response to White’s central attack. Check ...Nxe4 before routinely exchanging bishops.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L952"
+      },
+      {
+        "title": "03 · Two Knights: Ng5 and the correct ...Na5",
+        "moves": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 d5 5. exd5 Na5 {Attacking the bishop changes the position compared with 5...Nxd5.} 6. Bb5+ c6 7. dxc6 bxc6 8. Be2 h6 9. Nf3 e4 10. Ne5 Bd6",
+        "plan": "Black receives activity for the pawn. Learn the concrete move order."
+      },
+      {
+        "title": "04 · Ruy Lopez: the Chigorin central structure",
+        "moves": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 c5 11. d4 Qc7 12. Nbd2 cxd4",
+        "plan": "Understand central tension and knight manoeuvres rather than pushing flank pawns automatically.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L1251"
+      },
+      {
+        "title": "05 · Exchange Ruy Lopez: structural balance",
+        "moves": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O f6 {The e5-pawn needs protection in this setup.} 6. d4 exd4 7. Nxd4 c5 8. Nb3 Qxd1 9. Rxd1 Bd7",
+        "plan": "The bishop pair and activity compensate for doubled pawns. A pawn ending is not automatically favourable."
+      },
+      {
+        "title": "06 · Scotch: coordination and king safety",
+        "moves": "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Be3 Qf6 6. c3 Nge7 {Theory source C45: 12 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 7. Bc4 Ne5 {Queen pressure needs development and a safe king. Check tactics before the thematic ...d5 break.} 8. Be2 Qg6 9. O-O d6 10. f3 O-O 11. Nd2 d5 12. a4 dxe4",
+        "plan": "Queen pressure needs development and a safe king. Check tactics before the thematic ...d5 break.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/c.tsv#L758"
+      },
+      {
+        "title": "07 · Four Knights",
+        "moves": "1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Bb4 5. O-O O-O 6. d3 d6 7. Bg5 Bxc3 8. bxc3 Qe7 9. Re1 Nd8",
+        "plan": "Symmetry alone does not give an advantage. Activate the pieces and watch ...Ne6 and ...c6."
+      },
+      {
+        "title": "08 · Vienna: answering an early f4",
+        "moves": "1. e4 e5 2. Nc3 Nf6 3. f4 d5 {Strike in the centre before White’s attack develops.} 4. fxe5 Nxe4 5. Nf3 Be7 6. d4 O-O 7. Bd3 f5",
+        "plan": "Restore development and central control. Do not accept every offered pawn."
+      },
+      {
+        "title": "09 · King’s Gambit: the Falkbeer response",
+        "moves": "1. e4 e5 2. f4 d5 3. exd5 e4 4. d3 Nf6 5. dxe4 Nxe4 6. Nf3 Bc5 7. Qe2 Bf5 8. g4 O-O",
+        "plan": "In this development gambit, activity, checks and king safety take priority."
+      },
+      {
+        "title": "10 · Centre Game: development with tempo",
+        "moves": "1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qe3 Nf6 5. Nc3 Bb4 6. Bd2 O-O 7. O-O-O Re8",
+        "plan": "An early queen sortie does not justify attacking without development."
+      },
+      {
+        "title": "11 · Danish Gambit: returning a pawn for development",
+        "moves": "1. e4 e5 2. d4 exd4 3. c3 d5 {Counter in the centre rather than holding material at any cost.} 4. exd5 Qxd5 5. cxd4 Nc6 6. Nf3 Bg4 7. Be2 O-O-O",
+        "plan": "Build the basic ...e5 repertoire before memorizing long accepted-gambit lines."
+      },
+      {
+        "title": "12 · Bishop’s Opening and the delayed Italian",
+        "moves": "1. e4 e5 2. Bc4 Nf6 3. d3 Nc6 4. Nf3 Bc5 5. c3 d6 6. O-O O-O",
+        "plan": "Recognize the transposition to the Pianissimo and avoid learning identical positions twice."
+      }
+    ],
+    "linkedRevision": 2
+  },
+  {
+    "id": "leon-black-fianchetto",
+    "name": "Fianchetto against d4, c4 and Nf3",
+    "color": "b",
+    "eco": "A04–E99",
+    "symbol": "K",
+    "tone": "lavender",
+    "priority": 8,
+    "group": "Black · closed openings",
+    "description": "King’s Indian structures, London, Colle, English and Réti transpositions.",
+    "when": "Against d4, c4 or Nf3, start with ...Nf6, ...g6 and ...Bg7, then choose central breaks for the actual structure.",
+    "plans": [
+      "A closed centre allows flank play, but White’s c5 needs a concrete response. Balance the attack with queenside defence.",
+      "This is an intentional gambit approach with active pieces. Understand the compensation before memorizing it.",
+      "Prioritize central activity and knight squares rather than copying the attack from a closed centre."
+    ],
+    "warnings": [
+      "Choose a plan for the actual pawn structure. A move outside this repertoire may also be good.",
+      "The unverified foundation chapters illustrate plans; they are not all engine-certified."
+    ],
+    "personal": "Provides a fianchetto option alongside your existing ...d5 repertoire.",
+    "sources": [
+      "https://www.chess.com/openings/Kings-Indian-Defense",
+      "https://github.com/lichess-org/chess-openings"
+    ],
+    "lessons": [
+      {
+        "title": "01 · King’s Indian: the closed centre",
+        "moves": "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. Ne1 Nd7 10. Be3 f5 11. f3 f4 12. Bf2 g5",
+        "plan": "A closed centre allows flank play, but White’s c5 needs a concrete response. Balance the attack with queenside defence.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L365"
+      },
+      {
+        "title": "02 · Sämisch: responding with ...c5",
+        "moves": "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 c5 7. dxc5 dxc5 8. Qxd8 Rxd8 9. Bxc5 Nc6",
+        "plan": "This is an intentional gambit approach with active pieces. Understand the compensation before memorizing it."
+      },
+      {
+        "title": "03 · Fianchetto: central activity",
+        "moves": "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. Nf3 d6 5. g3 O-O 6. Bg2 Nbd7 7. O-O e5 8. e4 Re8 9. h3 exd4 10. Nxd4 Nc5 11. Re1 a5 {Theory source E68: 22 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 12. Ndb5 Bd7 {Prioritize central activity and knight squares rather than copying the attack from a closed centre.}",
+        "plan": "Prioritize central activity and knight squares rather than copying the attack from a closed centre.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L284"
+      },
+      {
+        "title": "04 · Four Pawns Attack: challenging the centre",
+        "moves": "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f4 O-O 6. Nf3 c5 7. Be2 cxd4 8. Nxd4 Nc6 9. Be3",
+        "plan": "Challenge the broad centre before White finishes stabilizing it."
+      },
+      {
+        "title": "05 · London against a fianchetto: development and counterplay",
+        "moves": "1. d4 Nf6 2. Nf3 g6 3. Bf4 Bg7 4. e3 d6 5. Be2 O-O {Theory source A48: 10 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 6. h3 b6 {Combine development with a timely ...e5 or ...c5. Avoid early queen-led pawn hunting.} 7. Bh2 Bb7 8. O-O Re8 9. c3 Nbd7 10. a4 a6 11. Nbd2 e5 12. Qb3 Qe7",
+        "plan": "Combine development with a timely ...e5 or ...c5. Avoid early queen-led pawn hunting.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L642"
+      },
+      {
+        "title": "06 · Colle: preventing a comfortable e4",
+        "moves": "1. d4 Nf6 2. Nf3 g6 3. e3 Bg7 4. Bd3 O-O 5. O-O d6 6. c3 Nc6 7. Nbd2 e5 8. dxe5 dxe5",
+        "plan": "White aims for e4. Choose central counterplay before that break becomes easy."
+      },
+      {
+        "title": "07 · English Opening: the closed setup",
+        "moves": "1. c4 Nf6 2. Nc3 g6 3. g3 Bg7 4. Bg2 O-O 5. Nf3 d6 6. O-O e5 7. d3 Nc6 8. Rb1 a5",
+        "plan": "White has no pawn on d4. Choose breaks according to the possible d4 or b4 advance."
+      },
+      {
+        "title": "08 · Réti into the King’s Indian",
+        "moves": "1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. d4 O-O 6. Be2 e5 7. O-O",
+        "plan": "Recognizing the same position from a different move order reduces memorization."
+      },
+      {
+        "title": "09 · Early g3 and the closed centre",
+        "moves": "1. g3 Nf6 2. Bg2 g6 3. d3 Bg7 4. Nf3 O-O 5. O-O d5 6. Nbd2 Nc6 7. e4 e5",
+        "plan": "If White leaves the centre free, take space with ...d5 and ...e5."
+      },
+      {
+        "title": "10 · Symmetrical English: the double fianchetto",
+        "moves": "1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. Nf3 Nf6 6. O-O O-O 7. d4 {Theory source A39: 13 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} cxd4 {Watch d4 and central exchanges. A bishop on g7 does not imply the same plan as in the Dragon.} 8. Nxd4 Nxd4 9. Qxd4 d6 10. Qd3 a5 11. Bg5 a4 12. b4 axb3",
+        "plan": "Watch d4 and central exchanges. A bishop on g7 does not imply the same plan as in the Dragon.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L491"
+      }
+    ],
+    "linkedRevision": 2
+  },
+  {
+    "id": "leon-black-d5",
+    "name": "1…d5: Albin and queen’s pawn systems",
+    "color": "b",
+    "eco": "D00–D09",
+    "symbol": "P",
+    "tone": "sand",
+    "priority": 9,
+    "group": "Black · 1.d4 d5",
+    "description": "Albin, London, Colle, Veresov and early e4 responses.",
+    "when": "After 1.d4 d5. The Albin is 2.c4 e5, a different opening from 1.e4 e5.",
+    "plans": [
+      "The Albin is a deliberately riskier gambit. Prioritize development and activity over an unsupported flank attack.",
+      "Seek central compensation and active squares. The gambit does not guarantee equality and should not depend on a trap.",
+      "White has declined the gambit. Switch to development and central tension."
+    ],
+    "warnings": [
+      "The Albin is a riskier gambit. Its continuation checks do not establish that ...e5 is preferable to ...e6 or ...c6.",
+      "The unverified foundation chapters illustrate plans; they are not all engine-certified."
+    ],
+    "personal": "Builds on your usual ...d5 response and your Albin choice against c4.",
+    "sources": [
+      "https://www.chess.com/openings/Queens-Gambit",
+      "https://github.com/lichess-org/chess-openings"
+    ],
+    "lessons": [
+      {
+        "title": "01 · Albin: development after the accepted gambit",
+        "moves": "1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 Nc6 5. g3 {Theory source D09: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nge7 {The Albin is a deliberately riskier gambit. Prioritize development and activity over an unsupported flank attack.} 6. Bg2 Ng6 7. O-O Ngxe5 8. Nxe5 Nxe5 9. Na3 Be7 10. Nb5 O-O 11. Bf4 Bf6 12. Nxd4 Nxc4",
+        "plan": "The Albin is a deliberately riskier gambit. Prioritize development and activity over an unsupported flank attack.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L173"
+      },
+      {
+        "title": "02 · Albin: central compensation against Nbd2",
+        "moves": "1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 Nc6 5. Nbd2 {Theory source D08: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nge7 {Seek central compensation and active squares. The gambit does not guarantee equality and should not depend on a trap.} 6. Nb3 Ng6 7. a3 Be7 8. Nbxd4 Ncxe5 9. Qc2 O-O 10. e3 Bf6 11. Nxe5 Bxe5 12. Nf3 Re8",
+        "plan": "Seek central compensation and active squares. The gambit does not guarantee equality and should not depend on a trap.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L169"
+      },
+      {
+        "title": "03 · Declined Albin: avoiding a queen-led pawn hunt",
+        "moves": "1. d4 d5 2. c4 e5 3. e3 exd4 4. exd4 Nf6 5. Nc3 Bb4 6. Nf3 O-O 7. Be2 dxc4 8. O-O",
+        "plan": "White has declined the gambit. Switch to development and central tension."
+      },
+      {
+        "title": "04 · London against ...d5: active defence",
+        "moves": "1. d4 d5 2. Nf3 Nf6 3. Bf4 c5 4. e3 Nc6 5. Nbd2 e6 6. c3 {Theory source D02: 11 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nh5 {Fight for the centre and active bishops. Every ...f6 or ...g6 affects king safety.} 7. Bg5 f6 8. Bh4 g6 9. Bb5 cxd4 10. cxd4 Bd6 11. Rc1 O-O 12. O-O Bd7",
+        "plan": "Fight for the centre and active bishops. Every ...f6 or ...g6 affects king safety.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L96"
+      },
+      {
+        "title": "05 · Colle: controlling the central break",
+        "moves": "1. d4 d5 2. Nf3 Nf6 3. e3 e6 4. Bd3 c5 5. b3 {Theory source D05: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Be7 {Before White plays e4, establish active pieces and prepare central exchanges. Connect rooks with open files.} 6. Bb2 O-O 7. O-O b6 8. Nbd2 Nc6 9. c4 cxd4 10. exd4 Nb4 11. Be2 Bb7 12. a3 Nc6",
+        "plan": "Before White plays e4, establish active pieces and prepare central exchanges. Connect rooks with open files.",
+        "source": "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L132"
+      },
+      {
+        "title": "06 · Veresov: early Nc3 and Bf4",
+        "moves": "1. d4 d5 2. Nc3 Nf6 3. Bf4 c5 4. e3 Nc6 5. Nf3 a6 6. Be2 cxd4 7. exd4 Bf5 8. O-O e6",
+        "plan": "Develop the bishop and prepare pressure on an isolated centre if exchanges occur."
+      },
+      {
+        "title": "07 · Blackmar-Diemer: an active response",
+        "moves": "1. d4 d5 2. e4 dxe4 3. Nc3 Nf6 4. f3 exf3 5. Nxf3 e6 6. Bg5 Be7 7. Bd3 O-O 8. O-O c5",
+        "plan": "Complete development first. An extra pawn does not justify ignoring open lines near the king."
+      },
+      {
+        "title": "08 · The Lasker motif: premature e3",
+        "moves": "1. d4 d5 2. c4 e5 3. dxe5 d4 4. e3 Bb4+ 5. Bd2 dxe3 {The check creates a dangerous advanced pawn.} 6. Bxb4 exf2+ 7. Ke2 fxg1=N+",
+        "plan": "Promotion to a knight comes with check. This illustrates a specific tactical motif, not the foundation of the repertoire."
+      }
+    ],
+    "linkedRevision": 2
+  }
+]

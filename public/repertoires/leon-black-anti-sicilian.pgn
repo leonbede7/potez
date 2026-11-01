@@ -1,0 +1,63 @@
+[Event "01 · Alapin: central pressure"]
+[Opening "01 · Alapin: central pressure"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L452"]
+[Result "*"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. d4 cxd4 {Theory source B22: 8 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 5. cxd4 d6 {...e6, ...Be7 and pressure on d4 can be more appropriate than an automatic fianchetto.} 6. Nf3 Nc6 7. Bc4 Nb6 8. Bb5 dxe5 9. Nxe5 Bd7 10. Nxd7 Qxd7 11. Nc3 e6 12. O-O Rd8 {Plan: ...e6, ...Be7 and pressure on d4 can be more appropriate than an automatic fianchetto.} *
+
+[Event "02 · Alapin with early Bc4"]
+[Opening "02 · Alapin with early Bc4"]
+[Annotator "Potez study notes"]
+[Source "https://www.chess.com/openings/Sicilian-Defense-Open-Dragon-Variation"]
+[Result "*"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. Nf3 Nc6 5. Bc4 Nb6 6. Bb3 d5 {Seek central counterplay rather than a random pawn advance.} 7. exd6 Qxd6 8. O-O Be6 9. Bxe6 Qxe6 {Plan: Distinguish this structure from the Open Dragon. The queen and pawns have different jobs.} *
+
+[Event "03 · Moscow: development after the bishop exchange"]
+[Opening "03 · Moscow: development after the bishop exchange"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L638"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. O-O Nc6 6. c3 Nf6 7. d4 {Theory source B52: 13 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nxe4 {Calculate central threats before quiet development. Capturing e4 requires concrete justification.} 8. d5 Ne5 9. c4 O-O-O 10. Nxe5 dxe5 11. Re1 Nd6 12. Qd3 Qg4 {Plan: Calculate central threats before quiet development. Capturing e4 requires concrete justification.} *
+
+[Event "04 · Grand Prix: a central response"]
+[Opening "04 · Grand Prix: a central response"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L471"]
+[Result "*"]
+
+1. e4 c5 2. Nc3 Nc6 3. f4 g6 4. Nf3 Bg7 5. Bc4 e6 {Theory source B23: 10 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 6. e5 d6 {Answer a kingside attack with timely central play. Opening the e- or d-file changes the position.} 7. Bb5 Ne7 8. d4 O-O 9. dxc5 dxe5 10. fxe5 Qxd1+ 11. Nxd1 Nxe5 12. Nxe5 Bxe5 {Plan: Answer a kingside attack with timely central play. Opening the e- or d-file changes the position.} *
+
+[Event "05 · Closed Sicilian: a flexible centre"]
+[Opening "05 · Closed Sicilian: a flexible centre"]
+[Annotator "Potez study notes"]
+[Source "https://www.chess.com/openings/Sicilian-Defense-Open-Dragon-Variation"]
+[Result "*"]
+
+1. e4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. d3 d6 6. Be3 e6 7. Qd2 Nge7 8. Bh6 O-O 9. Bxg7 Kxg7 {Plan: After exchanging the g7-bishop, reassess the dark squares. Other pieces also contribute to defence.} *
+
+[Event "06 · Early Bc4: development without a forced fianchetto"]
+[Opening "06 · Early Bc4: development without a forced fianchetto"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/b.tsv#L377"]
+[Result "*"]
+
+1. e4 c5 2. Bc4 {Theory source B20: 3 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} e6 {Early Bc4 does not require a Dragon setup. Choose development and central responses for the actual position.} 3. Nf3 Nf6 4. Qe2 Nc6 5. e5 Nd5 6. d4 cxd4 7. O-O d6 8. exd6 Nb6 9. Bb3 Bxd6 10. c3 d3 11. Qe4 O-O 12. Rd1 Qc7 {Plan: Early Bc4 does not require a Dragon setup. Choose development and central responses for the actual position.} *
+
+[Event "07 · Declining the Morra: transposing to the Alapin"]
+[Opening "07 · Declining the Morra: transposing to the Alapin"]
+[Annotator "Potez study notes"]
+[Source "https://www.chess.com/openings/Sicilian-Defense-Open-Dragon-Variation"]
+[Result "*"]
+
+1. e4 c5 2. d4 cxd4 3. c3 Nf6 {Use one consistent system instead of an additional gambit repertoire.} 4. e5 Nd5 5. Nf3 Nc6 6. cxd4 d6 7. Bc4 Nb6 8. Bb5 dxe5 {Plan: Connect this transposition with the first Alapin chapter.} *
+
+[Event "08 · Quiet d3 and a delayed d4"]
+[Opening "08 · Quiet d3 and a delayed d4"]
+[Annotator "Potez study notes"]
+[Source "https://www.chess.com/openings/Sicilian-Defense-Open-Dragon-Variation"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 d6 3. d3 Nf6 4. g3 g6 5. Bg2 Bg7 6. O-O O-O 7. Nbd2 Nc6 8. Re1 e5 {Plan: Stay flexible when White delays d4. ...e5 creates a different structure from the Open Dragon.} *

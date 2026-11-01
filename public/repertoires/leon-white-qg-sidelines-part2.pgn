@@ -1,0 +1,71 @@
+[Event "01 · Queen’s Gambit Accepted: the central system"]
+[Opening "01 · Queen’s Gambit Accepted: the central system"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L231"]
+[PotezKind "continuation"]
+[PotezOrigin "D20 · revised theory line"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+1. d4 d5 2. c4 dxc4 3. e4 Nf6 {Theory source D20: 6 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 4. e5 {Central space needs piece support. After recovering c4, control d4 and complete development.} Nd5 5. Bxc4 Nb6 6. Bd3 Nc6 7. Be3 Nb4 8. Be4 f5 9. a3 N4d5 10. Bf3 Bd7 11. Nc3 Bc6 12. Nge2 Qd7 13. Bxd5 Nxd5 14. Rc1 e6 15. Nxd5 Bxd5 16. f3 O-O-O 17. h4 Kb8 18. Kf2 g6 19. Bg5 Rc8 20. Bf6 Rg8 {Plan: Central space needs piece support. After recovering c4, control d4 and complete development.} *
+
+[Event "02 · Against the Albin: a safe fianchetto"]
+[Opening "02 · Against the Albin: a safe fianchetto"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L173"]
+[PotezKind "continuation"]
+[PotezOrigin "D09 · revised theory line"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 Nc6 5. g3 {Theory source D09: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nge7 6. Bg2 {Returning the gambit pawn can help development and king safety. Treat the advanced d4-pawn as both a restriction and a possible target.} Ng6 7. O-O Ngxe5 8. Nxe5 Nxe5 9. Na3 Be7 10. Nb5 O-O 11. Bf4 Bf6 12. Nxd4 Nxc4 13. Nb5 c6 14. Nc7 Qxd1 15. Raxd1 Rb8 16. Na6 Ra8 {Plan: Returning the gambit pawn can help development and king safety. Treat the advanced d4-pawn as both a restriction and a possible target.} *
+
+[Event "03 · Against the Albin: the Nbd2 system"]
+[Opening "03 · Against the Albin: the Nbd2 system"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L169"]
+[PotezKind "continuation"]
+[PotezOrigin "D08 · revised theory line"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 Nc6 5. Nbd2 {Theory source D08: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nge7 6. Nb3 {The knight setup responds to the restriction created by d4. Concrete central exchanges matter more than keeping every pawn.} Ng6 7. a3 Be7 8. Nbxd4 Ncxe5 9. Qc2 O-O 10. e3 Bf6 11. Nxe5 Bxe5 12. Nf3 Re8 13. h4 Qf6 14. Nxe5 Nxe5 15. f3 h6 16. Be2 Nc6 17. Kf2 Ne5 18. e4 Be6 19. Bd2 Rad8 20. Rad1 Rd4 {Plan: The knight setup responds to the restriction created by d4. Concrete central exchanges matter more than keeping every pawn.} *
+
+[Event "04 · Chigorin Defence: development under pressure"]
+[Opening "04 · Chigorin Defence: development under pressure"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L155"]
+[PotezKind "continuation"]
+[PotezOrigin "D07 · revised theory line"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+1. d4 d5 2. c4 Nc6 3. Nc3 e6 4. Nf3 Nf6 5. a3 {Theory source D07: 9 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Be7 6. Bf4 {Secure the centre before opening lines. Active bishops and rooks should support central exchanges.} Ne4 7. e3 Nxc3 8. bxc3 O-O 9. Qc2 h6 10. cxd5 exd5 11. c4 Re8 12. Bd3 dxc4 13. Qxc4 Bd6 14. Bg3 Qf6 15. O-O Bf5 16. Be2 Na5 17. Qa4 b6 18. Rac1 Be4 19. Rfd1 Bd5 20. Nd2 Rad8 {Plan: Secure the centre before opening lines. Active bishops and rooks should support central exchanges.} *
+
+[Event "05 · Decision: Queen’s Gambit Accepted: the central system"]
+[Opening "05 · Decision: Queen’s Gambit Accepted: the central system"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L231"]
+[SetUp "1"]
+[FEN "r3kb1r/pppqp1pp/1nb5/3nPp2/3P4/P1N1BB2/1P2NPPP/R2QK2R w KQkq - 7 13"]
+[PotezPrompt "How can you activate or preserve the bishop?"]
+[PotezKind "decision"]
+[PotezOrigin "D20 · verified continuation of chapter 01"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+13. Bxd5 {Central space needs piece support. After recovering c4, control d4 and complete development.} Nxd5 14. Rc1 e6 15. Nxd5 Bxd5 16. f3 O-O-O {Plan: Central space needs piece support. After recovering c4, control d4 and complete development.} *
+
+[Event "06 · Decision: Against the Albin: a safe fianchetto"]
+[Opening "06 · Decision: Against the Albin: a safe fianchetto"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L173"]
+[SetUp "1"]
+[FEN "r1bq1rk1/ppp2ppp/5b2/8/2nN1B2/6P1/PP2PPBP/R2Q1RK1 w - - 0 13"]
+[PotezPrompt "Which knight manoeuvre continues this recorded line?"]
+[PotezKind "decision"]
+[PotezOrigin "D09 · verified continuation of chapter 02"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+13. Nb5 {Returning the gambit pawn can help development and king safety. Treat the advanced d4-pawn as both a restriction and a possible target.} c6 14. Nc7 Qxd1 15. Raxd1 Rb8 16. Na6 Ra8 {Plan: Returning the gambit pawn can help development and king safety. Treat the advanced d4-pawn as both a restriction and a possible target.} *

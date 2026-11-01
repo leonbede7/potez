@@ -1,0 +1,5 @@
+Chess piece artwork: Cburnett, via lichess-org/lila/public/piece/cburnett.
+Source: https://github.com/lichess-org/lila/tree/master/public/piece/cburnett
+Licensed under GNU General Public License v2 or later (GPL-2.0-or-later).
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+The unmodified original SVG artwork is included in this directory.

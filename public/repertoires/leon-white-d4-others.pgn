@@ -1,0 +1,127 @@
+[Event "01 · Englund: development with tactical awareness"]
+[Opening "01 · Englund: development with tactical awareness"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L514"]
+[Result "*"]
+
+1. d4 e5 2. dxe5 Nc6 3. Nf3 Qe7 {Theory source A40: 6 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 4. Bf4 {Develop with tempo against an early queen and check every capture. Do not castle mechanically when a tactic is available.} d6 5. exd6 Qf6 6. Qc1 Bxd6 7. Bxd6 Qxd6 8. Qd2 Qxd2+ 9. Nbxd2 Nf6 10. c3 a5 11. Nd4 a4 12. Nb5 Kd8 {Plan: Develop with tempo against an early queen and check every capture. Do not castle mechanically when a tactic is available.} *
+
+[Event "02 · 2.d5 against ...Bc5: avoiding an early f3"]
+[Opening "02 · 2.d5 against ...Bc5: avoiding an early f3"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings"]
+[Result "*"]
+
+1. d4 e5 2. d5 Bc5 3. Nf3 {Develop a piece rather than automatically weakening the king with f3.} d6 4. Nc3 Nf6 5. e4 O-O 6. Be2 c6 7. O-O cxd5 8. exd5 {Plan: Keep the space advantage, but secure the king first. This is an alternative, not proof that 2.d5 must be abandoned.} *
+
+[Event "03 · Nimzo-Indian: the classical Qc2 system"]
+[Opening "03 · Nimzo-Indian: the classical Qc2 system"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L169"]
+[Result "*"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O {Theory source E32: 8 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 5. e4 {Qc2 belongs to the classical system. Respond to ...d5 according to central tension; the bishop pair is not the only goal.} d5 6. e5 Ne4 7. Bd3 c5 8. Nf3 cxd4 9. Nxd4 Nd7 10. Bf4 Qh4 11. g3 Qh5 12. O-O g5 {Plan: Qc2 belongs to the classical system. Respond to ...d5 according to central tension; the bishop pair is not the only goal.} *
+
+[Event "04 · King’s Indian: the Bayonet system"]
+[Opening "04 · King’s Indian: the Bayonet system"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L360"]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. b4 Nh5 10. Re1 {Theory source E97: 19 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} f5 11. a4 {In the Bayonet, answer ...a5 and reassess central tension after ...f5. Support pawn advances with pieces.} a5 12. bxa5 Rxa5 {Plan: In the Bayonet, answer ...a5 and reassess central tension after ...f5. Support pawn advances with pieces.} *
+
+[Event "05 · Grünfeld: supporting an active centre"]
+[Opening "05 · Grünfeld: supporting an active centre"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L618"]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8. Ne2 O-O 9. O-O Nc6 10. Be3 Bg4 11. f3 Na5 12. Bd3 cxd4 {Plan: A broad centre needs active pieces and accurate calculation. Sacrifices depend on the specific verified sequence.} *
+
+[Event "06 · Benoni: space and development"]
+[Opening "06 · Benoni: space and development"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings"]
+[Result "*"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. e4 g6 7. Nf3 Bg7 8. Be2 O-O 9. O-O Re8 10. Nd2 {The knight can support c4 and control e4.} Na6 11. f3 {Plan: Learn the e5 and ...b5 breaks and the importance of e4 before starting a kingside attack.} *
+
+[Event "07 · Benko: accepting with a fianchetto"]
+[Opening "07 · Benko: accepting with a fianchetto"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings"]
+[Result "*"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. bxa6 g6 6. Nc3 Bxa6 7. g3 d6 8. Bg2 Bg7 9. Nf3 O-O 10. O-O Nbd7 11. Qc2 {Plan: Defend the extra pawn against long-term pressure on the a- and b-files.} *
+
+[Event "08 · Dutch Defence: g3 and Bg2"]
+[Opening "08 · Dutch Defence: g3 and Bg2"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings"]
+[Result "*"]
+
+1. d4 f5 2. c4 Nf6 3. g3 e6 4. Bg2 Be7 5. Nf3 O-O 6. O-O d6 7. Nc3 Qe8 8. b3 {Prepare to develop the other bishop.} a5 9. Bb2 {Plan: Control e5, watch the ...e5 break, and account for Black’s kingside attack.} *
+
+[Event "09 · Budapest Gambit: capture and development"]
+[Opening "09 · Budapest Gambit: capture and development"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings"]
+[Result "*"]
+
+1. d4 Nf6 2. c4 e5 3. dxe5 Ng4 4. Nf3 Nc6 5. Bf4 Bb4+ 6. Nbd2 Qe7 7. a3 Ngxe5 8. Nxe5 Nxe5 9. e3 Bxd2+ 10. Qxd2 {Plan: Allow the pawn to be recovered if that completes development and avoids tactical traps.} *
+
+[Event "10 · Early ...d6 and ...e5: exchanging queens"]
+[Opening "10 · Early ...d6 and ...e5: exchanging queens"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings"]
+[Result "*"]
+
+1. d4 d6 2. c4 e5 3. dxe5 dxe5 4. Qxd8+ Kxd8 5. Nc3 Be6 6. Nf3 Nd7 7. e4 c6 8. Be2 Kc7 9. O-O {Plan: Black’s lost castling rights do not decide the game. Use development and secure central squares.} *
+
+[Event "11 · Modern Defence: taking the centre"]
+[Opening "11 · Modern Defence: taking the centre"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings"]
+[Result "*"]
+
+1. d4 g6 2. c4 Bg7 3. Nc3 d6 4. e4 Nf6 5. Nf3 O-O 6. Be2 e5 7. O-O {Plan: Recognize the transposition to the King’s Indian rather than memorizing the same position twice.} *
+
+[Event "12 · English Defence: ...b6 and ...Bb7"]
+[Opening "12 · English Defence: ...b6 and ...Bb7"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings"]
+[Result "*"]
+
+1. d4 e6 2. c4 b6 3. Nc3 Bb7 4. e4 Bb4 5. Bd3 f5 6. Qe2 Nf6 7. e5 Ne4 8. Bxe4 Bxe4 9. Nf3 {Plan: Maintain central coordination. An early ...f5 changes the character of the position.} *
+
+[Event "13 · Queen’s Indian from 3.Nf3"]
+[Opening "13 · Queen’s Indian from 3.Nf3"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings"]
+[Result "*"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. Nc3 Ne4 8. Qc2 Nxc3 9. Qxc3 {Plan: In this move order, control e4 and coordinate the pieces.} *
+
+[Event "14 · Bogo-Indian: answering the check"]
+[Opening "14 · Bogo-Indian: answering the check"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings"]
+[Result "*"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Qe7 5. g3 Nc6 6. Bg2 Bxd2+ 7. Qxd2 d6 8. Nc3 O-O 9. O-O {Plan: Deal with the check, then continue the fianchetto and preparation for e4.} *
+
+[Event "15 · Dutch Stonewall: the e5 outpost"]
+[Opening "15 · Dutch Stonewall: the e5 outpost"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings"]
+[Result "*"]
+
+1. d4 f5 2. c4 Nf6 3. g3 e6 4. Bg2 d5 5. Nf3 c6 6. O-O Bd6 7. b3 O-O 8. Ba3 {Offer to exchange Black’s active bishop.} Bxa3 9. Nxa3 Qe7 10. Nc2 {Plan: In the closed structure, choose good squares and useful exchanges rather than copying a plan against ...d6.} *
+
+[Event "16 · Leningrad Dutch"]
+[Opening "16 · Leningrad Dutch"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings"]
+[Result "*"]
+
+1. d4 f5 2. c4 Nf6 3. g3 g6 4. Bg2 Bg7 5. Nf3 O-O 6. O-O d6 7. Nc3 Qe8 8. d5 Na6 9. Nd4 {Plan: Support your space and control of e6 while watching Black’s ...e5 break.} *

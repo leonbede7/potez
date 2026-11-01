@@ -1,0 +1,71 @@
+[Event "01 · Carlsbad: Nge2 and central preparation"]
+[Opening "01 · Carlsbad: Nge2 and central preparation"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L380"]
+[PotezKind "continuation"]
+[PotezOrigin "D36 · revised theory line"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 c6 6. e3 Be7 7. Bd3 Nbd7 8. Nge2 O-O 9. O-O Re8 10. Qc2 Nf8 {Theory source D36: 20 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 11. Rae1 {Nge2 creates different options from an early Nf3. Coordinate f3 and e4 with exchanges and king safety.} g6 12. Nf4 Kg7 13. Bh4 Ne6 14. Nxe6+ Bxe6 15. f3 Rc8 16. Rd1 a6 17. Rfe1 Qc7 18. Qf2 Nh5 19. Bb1 Rcd8 20. Bxe7 Rxe7 {Plan: Nge2 creates different options from an early Nf3. Coordinate f3 and e4 with exchanges and king safety.} *
+
+[Event "02 · Carlsbad: Nf3 and active rooks"]
+[Opening "02 · Carlsbad: Nf3 and active rooks"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L377"]
+[PotezKind "continuation"]
+[PotezOrigin "D36 · revised theory line"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Nbd7 5. cxd5 exd5 6. Bg5 c6 7. e3 Be7 8. Bd3 O-O 9. Qc2 {Theory source D36: 17 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} h6 10. Bh4 {Evaluate piece activity and the centre before committing to a minority attack.} Re8 11. O-O Ne4 12. Bxe4 Bxh4 13. Bh7+ Kh8 14. Nxh4 Qxh4 15. Bd3 Qe7 16. Rfe1 Nf6 17. f3 Bd7 18. Qd2 Rad8 19. Bc2 Nh7 20. Rad1 Bc8 {Plan: Evaluate piece activity and the centre before committing to a minority attack.} *
+
+[Event "03 · Tarrasch: blockade and piece activity"]
+[Opening "03 · Tarrasch: blockade and piece activity"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L351"]
+[PotezKind "continuation"]
+[PotezOrigin "D34 · revised theory line"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 5. Nf3 Nc6 6. g3 Nf6 7. Bg2 Be7 8. O-O O-O 9. Bg5 cxd4 10. Nxd4 h6 11. Be3 Re8 12. Rc1 Be6 {Theory source D34: 24 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 13. Nxe6 {Control d5 and watch exchanges turn an isolated pawn into a connected pair. Do not overlook Black’s active pieces.} fxe6 14. Qb3 Qd7 15. Rfd1 Rac8 16. Bf4 g5 17. Be3 Bd6 18. Nb5 Bb8 19. Bd2 a6 20. Bc3 Kg7 {Plan: Control d5 and watch exchanges turn an isolated pawn into a connected pair. Do not overlook Black’s active pieces.} *
+
+[Event "04 · Semi-Tarrasch: central tension"]
+[Opening "04 · Semi-Tarrasch: central tension"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L417"]
+[PotezKind "continuation"]
+[PotezOrigin "D42 · revised theory line"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c5 5. cxd5 Nxd5 6. e3 Nc6 7. Bd3 {Theory source D42: 13 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Be7 8. O-O {Develop rooks and control central squares before another break. Reassess the structure after central exchanges.} O-O 9. a3 cxd4 10. exd4 Bf6 11. Re1 Bd7 12. h3 Nce7 13. Ne4 Bc6 14. b4 a6 15. Ne5 h6 16. Rb1 Bxe5 17. dxe5 Ng6 18. Bb2 Ndf4 19. Bf1 Qxd1 20. Rbxd1 Bxe4 {Plan: Develop rooks and control central squares before another break. Reassess the structure after central exchanges.} *
+
+[Event "05 · Decision: Carlsbad: Nge2 and central preparation"]
+[Opening "05 · Decision: Carlsbad: Nge2 and central preparation"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L380"]
+[SetUp "1"]
+[FEN "r1bqrn2/pp2bpkp/2p2np1/3p2B1/3P1N2/2NBP3/PPQ2PPP/4RRK1 w - - 2 13"]
+[PotezPrompt "How can you activate or preserve the bishop?"]
+[PotezKind "decision"]
+[PotezOrigin "D36 · verified continuation of chapter 01"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+13. Bh4 {Nge2 creates different options from an early Nf3. Coordinate f3 and e4 with exchanges and king safety.} Ne6 14. Nxe6+ Bxe6 15. f3 Rc8 16. Rd1 a6 {Plan: Nge2 creates different options from an early Nf3. Coordinate f3 and e4 with exchanges and king safety.} *
+
+[Event "06 · Decision: Carlsbad: Nf3 and active rooks"]
+[Opening "06 · Decision: Carlsbad: Nf3 and active rooks"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L377"]
+[SetUp "1"]
+[FEN "r1bqr1k1/pp1n1pp1/2p4p/3p4/3PB2b/2N1PN2/PPQ2PPP/R4RK1 w - - 0 13"]
+[PotezPrompt "How can you use a check to gain a tempo?"]
+[PotezKind "decision"]
+[PotezOrigin "D36 · verified continuation of chapter 02"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+13. Bh7+ {Evaluate piece activity and the centre before committing to a minority attack.} Kh8 14. Nxh4 Qxh4 15. Bd3 Qe7 16. Rfe1 Nf6 {Plan: Evaluate piece activity and the centre before committing to a minority attack.} *

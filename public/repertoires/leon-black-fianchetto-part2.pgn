@@ -1,0 +1,71 @@
+[Event "01 · King’s Indian: the closed centre"]
+[Opening "01 · King’s Indian: the closed centre"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L365"]
+[PotezKind "continuation"]
+[PotezOrigin "E98 · revised theory line"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. Ne1 Nd7 10. Be3 f5 11. f3 f4 12. Bf2 g5 13. Rc1 Ng6 14. c5 {Theory source E98: 27 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Nxc5 {A closed centre allows flank play, but White’s c5 needs a concrete response. Balance the attack with queenside defence.} 15. b4 Na6 16. Nb5 h5 17. Nxa7 Nxb4 18. Nxc8 Qxc8 19. Qb3 Na6 20. a4 b6 {Plan: A closed centre allows flank play, but White’s c5 needs a concrete response. Balance the attack with queenside defence.} *
+
+[Event "02 · Fianchetto: central activity"]
+[Opening "02 · Fianchetto: central activity"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L284"]
+[PotezKind "continuation"]
+[PotezOrigin "E68 · revised theory line"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. Nf3 d6 5. g3 O-O 6. Bg2 Nbd7 7. O-O e5 8. e4 Re8 9. h3 exd4 10. Nxd4 Nc5 11. Re1 a5 {Theory source E68: 22 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 12. Ndb5 Bd7 {Prioritize central activity and knight squares rather than copying the attack from a closed centre.} 13. Bf4 a4 14. Rb1 Bc6 15. Qc2 h5 16. Rbd1 h4 17. g4 Nfd7 18. g5 a3 19. b4 Ne6 20. Be3 Nb6 {Plan: Prioritize central activity and knight squares rather than copying the attack from a closed centre.} *
+
+[Event "03 · London against a fianchetto: development and counterplay"]
+[Opening "03 · London against a fianchetto: development and counterplay"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L642"]
+[PotezKind "continuation"]
+[PotezOrigin "A48 · revised theory line"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bf4 Bg7 4. e3 d6 5. Be2 O-O {Theory source A48: 10 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 6. h3 b6 {Combine development with a timely ...e5 or ...c5. Avoid early queen-led pawn hunting.} 7. Bh2 Bb7 8. O-O Re8 9. c3 Nbd7 10. a4 a6 11. Nbd2 e5 12. Qb3 Qe7 13. Rfd1 a5 14. Nb1 h5 15. Na3 Ne4 16. Nb5 Rac8 17. Na7 Ra8 {Plan: Combine development with a timely ...e5 or ...c5. Avoid early queen-led pawn hunting.} *
+
+[Event "04 · Symmetrical English: the double fianchetto"]
+[Opening "04 · Symmetrical English: the double fianchetto"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L491"]
+[PotezKind "continuation"]
+[PotezOrigin "A39 · revised theory line"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. Nf3 Nf6 6. O-O O-O 7. d4 {Theory source A39: 13 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} cxd4 {Watch d4 and central exchanges. A bishop on g7 does not imply the same plan as in the Dragon.} 8. Nxd4 Nxd4 9. Qxd4 d6 10. Qd3 a5 11. Bg5 a4 12. b4 axb3 13. axb3 Be6 14. h3 Rxa1 15. Rxa1 Qb6 16. Qd1 Nd7 17. Bd2 Bd4 18. Be1 Be5 19. Bd2 Rb8 20. Ra2 Qd8 {Plan: Watch d4 and central exchanges. A bishop on g7 does not imply the same plan as in the Dragon.} *
+
+[Event "05 · Decision: King’s Indian: the closed centre"]
+[Opening "05 · Decision: King’s Indian: the closed centre"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L365"]
+[SetUp "1"]
+[FEN "r1bq1rk1/pppn2bp/3p2n1/2PPp1p1/4Pp2/2N2P2/PP2BBPP/2RQNRK1 b - - 0 14"]
+[PotezPrompt "Which knight manoeuvre continues this recorded line?"]
+[PotezKind "decision"]
+[PotezOrigin "E98 · verified continuation of chapter 01"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+14... Nxc5 {A closed centre allows flank play, but White’s c5 needs a concrete response. Balance the attack with queenside defence.} 15. b4 Na6 16. Nb5 h5 17. Nxa7 Nxb4 18. Nxc8 {Plan: A closed centre allows flank play, but White’s c5 needs a concrete response. Balance the attack with queenside defence.} *
+
+[Event "06 · Decision: Fianchetto: central activity"]
+[Opening "06 · Decision: Fianchetto: central activity"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L284"]
+[SetUp "1"]
+[FEN "r2qr1k1/1ppb1pbp/3p1np1/pNn5/2P1PB2/2N3PP/PP3PB1/R2QR1K1 b - - 3 13"]
+[PotezPrompt "Which pawn-structure change fits this position?"]
+[PotezKind "decision"]
+[PotezOrigin "E68 · verified continuation of chapter 02"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+13... a4 {Prioritize central activity and knight squares rather than copying the attack from a closed centre.} 14. Rb1 Bc6 15. Qc2 h5 16. Rbd1 h4 17. g4 {Plan: Prioritize central activity and knight squares rather than copying the attack from a closed centre.} *

@@ -1,0 +1,71 @@
+[Event "01 · Englund: development with tactical awareness"]
+[Opening "01 · Englund: development with tactical awareness"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L514"]
+[PotezKind "continuation"]
+[PotezOrigin "A40 · revised theory line"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+1. d4 e5 2. dxe5 Nc6 3. Nf3 Qe7 {Theory source A40: 6 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 4. Bf4 {Develop with tempo against an early queen and check every capture. Do not castle mechanically when a tactic is available.} d6 5. exd6 Qf6 6. Qc1 Bxd6 7. Bxd6 Qxd6 8. Qd2 Qxd2+ 9. Nbxd2 Nf6 10. c3 a5 11. Nd4 a4 12. Nb5 Kd8 13. e4 Na7 14. Nd4 c5 15. Nc2 Kc7 16. f3 b5 17. c4 b4 18. Ne3 Nc6 19. Nd5+ Kb7 20. Kf2 h5 {Plan: Develop with tempo against an early queen and check every capture. Do not castle mechanically when a tactic is available.} *
+
+[Event "02 · Nimzo-Indian: the classical Qc2 system"]
+[Opening "02 · Nimzo-Indian: the classical Qc2 system"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L169"]
+[PotezKind "continuation"]
+[PotezOrigin "E32 · revised theory line"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O {Theory source E32: 8 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} 5. e4 {Qc2 belongs to the classical system. Respond to ...d5 according to central tension; the bishop pair is not the only goal.} d5 6. e5 Ne4 7. Bd3 c5 8. Nf3 cxd4 9. Nxd4 Nd7 10. Bf4 Qh4 11. g3 Qh5 12. O-O g5 13. cxd5 gxf4 14. dxe6 Nxe5 15. Nxe4 fxe6 16. Rad1 Ba5 17. h4 Bb6 18. Ng5 h6 19. Be2 Qg6 20. Qxg6+ Nxg6 {Plan: Qc2 belongs to the classical system. Respond to ...d5 according to central tension; the bishop pair is not the only goal.} *
+
+[Event "03 · King’s Indian: the Bayonet system"]
+[Opening "03 · King’s Indian: the Bayonet system"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L360"]
+[PotezKind "continuation"]
+[PotezOrigin "E97 · revised theory line"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. b4 Nh5 10. Re1 {Theory source E97: 19 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} f5 11. a4 {In the Bayonet, answer ...a5 and reassess central tension after ...f5. Support pawn advances with pieces.} a5 12. bxa5 Rxa5 13. exf5 Nxf5 14. Bg5 Nf6 15. Bd3 Ne7 16. Bd2 Ra8 17. Ng5 b6 18. h3 h6 19. Ne6 Bxe6 20. dxe6 Qc8 {Plan: In the Bayonet, answer ...a5 and reassess central tension after ...f5. Support pawn advances with pieces.} *
+
+[Event "04 · Grünfeld: supporting an active centre"]
+[Opening "04 · Grünfeld: supporting an active centre"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/d.tsv#L618"]
+[PotezKind "continuation"]
+[PotezOrigin "D89 · revised theory line"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8. Ne2 O-O 9. O-O Nc6 10. Be3 Bg4 11. f3 Na5 12. Bd3 cxd4 13. cxd4 Be6 14. d5 {Theory source D89: 27 plies from the cited record or an equivalent move order. The continuation was checked with Stockfish 19.} Bxa1 15. Qxa1 {A broad centre needs active pieces and accurate calculation. Sacrifices depend on the specific verified sequence.} f6 16. Rb1 Bc8 17. Bd2 Rf7 18. Nd4 Bd7 19. Qc3 b6 20. Ba6 Bc8 {Plan: A broad centre needs active pieces and accurate calculation. Sacrifices depend on the specific verified sequence.} *
+
+[Event "05 · Decision: Englund: development with tactical awareness"]
+[Opening "05 · Decision: Englund: development with tactical awareness"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/a.tsv#L514"]
+[SetUp "1"]
+[FEN "r1bk3r/1pp2ppp/2n2n2/1N6/p7/2P5/PP1NPPPP/R3KB1R w KQ - 2 13"]
+[PotezPrompt "Which pawn-structure change fits this position?"]
+[PotezKind "decision"]
+[PotezOrigin "A40 · verified continuation of chapter 01"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+13. e4 {Develop with tempo against an early queen and check every capture. Do not castle mechanically when a tactic is available.} Na7 14. Nd4 c5 15. Nc2 Kc7 16. f3 b5 {Plan: Develop with tempo against an early queen and check every capture. Do not castle mechanically when a tactic is available.} *
+
+[Event "06 · Decision: Nimzo-Indian: the classical Qc2 system"]
+[Opening "06 · Decision: Nimzo-Indian: the classical Qc2 system"]
+[Annotator "Potez study notes"]
+[Source "https://github.com/lichess-org/chess-openings/blob/712a58be746c143f4ab935b68acc50f4bac813eb/e.tsv#L169"]
+[SetUp "1"]
+[FEN "r1b2rk1/pp1n1p1p/4p3/3pP1pq/1bPNnB2/2NB2P1/PPQ2P1P/R4RK1 w - - 0 13"]
+[PotezPrompt "Which pawn-structure change fits this position?"]
+[PotezKind "decision"]
+[PotezOrigin "E32 · verified continuation of chapter 02"]
+[PotezVerification "Stockfish 19; 3000000 nodes per position; revision 2"]
+[Result "*"]
+
+13. cxd5 {Qc2 belongs to the classical system. Respond to ...d5 according to central tension; the bishop pair is not the only goal.} gxf4 14. dxe6 Nxe5 15. Nxe4 fxe6 16. Rad1 Ba5 {Plan: Qc2 belongs to the classical system. Respond to ...d5 according to central tension; the bishop pair is not the only goal.} *
