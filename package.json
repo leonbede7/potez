@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "fake-indexeddb": "^6.2.6",
-    "vite": "^6.4.1"
+    "vite": "^8.3.5"
   },
   "description": "A local-first chess opening trainer with PGN imports, spaced repetition and repertoire mastery.",
   "author": "Leon Bede (https://github.com/leonbede7)",
